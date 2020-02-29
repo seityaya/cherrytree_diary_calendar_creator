@@ -102,12 +102,13 @@ void data_init(data_st *d, uint16_t year, uint16_t mount, uint16_t week, uint16_
             data_day_max_month(d);
             data_day_max_year(d);
             data_week_max_year(d);
+            data_week_year(d); /*NOTE: ISSUE 1*/
         } else {
             goto error_else;
         }
     } else {
     error_else:
-        printf("ERORR: data_init(%d %d %d %d)\n", year, mount, week, day);
+        printf("ERROR: data_init(%d %d %d %d)\n", year, mount, week, day);
         exit(1);
     }
     data_year_name(d);
@@ -161,6 +162,9 @@ void data_day_month(data_st *d)
 void data_week_year(data_st *d)
 {
     data_st t_beg, t_end;
+    data_week_max_year(d);
+
+    d->year_week_overflow = 0;
 
     t_beg.year = d->year;
     t_beg.month = 1;
@@ -181,6 +185,12 @@ void data_week_year(data_st *d)
     t_end.jdn += (7 - t_end.day_week);
 
     d->week_year = (data_dif(&t_beg, &t_end) / 7) + 1;
+
+    /*NOTE: ISSUE 1*/
+    if (d->week_year > d->week_max_year) {
+        d->week_year = 1;
+        d->year_week_overflow = 1;
+    }
 }
 
 /** PARAM: year */

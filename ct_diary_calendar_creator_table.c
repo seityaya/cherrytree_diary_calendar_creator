@@ -21,7 +21,7 @@ void diary_table_root(data_st d, char *text)
     }
     //TABLE END
     //
-    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
 #endif
 }
@@ -54,7 +54,7 @@ void diary_table_year(data_st d, char *text)
     }
     //TABLE END
     //
-    sprintf(buff, "<rich_text link=\"node %04d\">\n=================================================================\n</rich_text>", 0);
+    sprintf(buff, "<rich_text style=\"italic\">\n=================================================================\n</rich_text>");
     strcat(text, buff);
 #endif
 }
@@ -82,7 +82,7 @@ void diary_table_month(data_st d, char *text)
     }
     //TABLE END
     //
-    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n=================================================================\n</rich_text>", 0);
+    sprintf(buff, "<rich_text style=\"italic\">\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
 #endif
 }
@@ -101,16 +101,19 @@ void diary_table_week(data_st d, char *text)
 
     //
     //TABLE BEG
+    data_st t_d;
+    t_d = d;
+    data_init(&t_d, t_d.year - 1, t_d.month, 0, t_d.day_month);
     sprintf(buff, "<rich_text >\nW:\n</rich_text>");
     strcat(text, buff);
     for (uint16_t t = 1; t <= 7; t++) {
         data_init(&d, d.year, 0, d.week_year, t);
-        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d%c</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_week, (0 == t % 7) ? '\n' : ' ');
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%s%c</rich_text>", d.year - d.year_week_overflow, NODE_TYPE_DAY, d.day_num_year + t_d.year_leap, d.week_name, (0 == t % 7) ? '\n' : ' ');
         strcat(text, buff);
     }
     //TABLE END
     //
-    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
 #endif
 }
@@ -126,11 +129,11 @@ void diary_table_day(data_st d, char *text)
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [M%02d-%s]</rich_text>", d.year, NODE_TYPE_MONTH, d.month, d.month, d.month_name);
     strcat(text, buff);
-    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [W%02d]</rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [W%02d]</rich_text>", d.year + d.year_week_overflow, NODE_TYPE_WEEK, d.week_year, d.week_year);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [D%02d-%s]</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_month, d.week_name);
     strcat(text, buff);
-    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
 #endif
 }

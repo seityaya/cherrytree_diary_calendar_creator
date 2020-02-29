@@ -12,7 +12,8 @@ typedef struct
 {
     uint32_t jdn;           //номер юлианского дня
     uint16_t year;          //григорианский год
-    uint16_t year_leap;     //высокосный флаг
+    uint16_t year_week_overflow; //флаг перехода недели через границу года //NOTE: ISSUE 1
+    uint16_t year_leap;          //високосный флаг
     uint16_t month;         //месяц
     uint16_t day_month;     //номер дня в месяце
     uint16_t day_num_year;  //номер дня в году
