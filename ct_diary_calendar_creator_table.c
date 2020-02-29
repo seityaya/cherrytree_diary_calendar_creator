@@ -5,12 +5,20 @@ static char buff[20000];
 void diary_table_root(data_st d, char *text)
 {
 #ifdef DIARY_TABLE_ROOT_D
+    //HEADER BEG
     sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
     strcat(text, buff);
+    //HEADER END
+
+    //MOVING ALONG PATH BEG
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
     strcat(text, buff);
+    //MOVING ALONG PATH END
 
-    //
+    //MOVING ALONG SIBLINGS BEG
+
+    //MOVING ALONG SIBLINGS END
+
     //TABLE BEG
     sprintf(buff, "<rich_text >\nY:\n</rich_text>");
     strcat(text, buff);
@@ -20,23 +28,33 @@ void diary_table_root(data_st d, char *text)
         strcat(text, buff);
     }
     //TABLE END
-    //
+
+    //FOOTER BEG
     sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
+    //FOOTER END
 #endif
 }
 
 void diary_table_year(data_st d, char *text)
 {
 #ifdef DIARY_TABLE_YEAR_D
+    //HEADER BEG
     sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
     strcat(text, buff);
+    //HEADER END
+
+    //MOVING ALONG PATH BEG
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
     strcat(text, buff);
+    //MOVING ALONG PATH END
 
-    //
+    //MOVING ALONG SIBLINGS BEG
+
+    //MOVING ALONG SIBLINGS END
+
     //TABLE BEG
     sprintf(buff, "<rich_text >\nM:\n</rich_text>");
     strcat(text, buff);
@@ -53,25 +71,35 @@ void diary_table_year(data_st d, char *text)
         strcat(text, buff);
     }
     //TABLE END
-    //
+
+    //FOOTER BEG
     sprintf(buff, "<rich_text style=\"italic\">\n=================================================================\n</rich_text>");
     strcat(text, buff);
+    //FOOTER END
 #endif
 }
 
 void diary_table_month(data_st d, char *text)
 {
 #ifdef DIARY_TABLE_MONTH_D
+    //HEADER BEG
     sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
     strcat(text, buff);
+    //HEADER END
+
+    //MOVING ALONG PATH BEG
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [M%02d-%s]</rich_text>", d.year, NODE_TYPE_MONTH, d.month, d.month, d.month_name);
     strcat(text, buff);
+    //MOVING ALONG PATH END
 
-    //
+    //MOVING ALONG SIBLINGS BEG
+
+    //MOVING ALONG SIBLINGS END
+
     //TABLE BEG
     sprintf(buff, "<rich_text >\nD:\n</rich_text>");
     strcat(text, buff);
@@ -81,25 +109,35 @@ void diary_table_month(data_st d, char *text)
         strcat(text, buff);
     }
     //TABLE END
-    //
+
+    //FOOTER BEG
     sprintf(buff, "<rich_text style=\"italic\">\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
+    //FOOTER END
 #endif
 }
 
 void diary_table_week(data_st d, char *text)
 {
 #ifdef DIARY_TABLE_WEEK_D
+    //HEADER BEG
     sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
     strcat(text, buff);
+    //HEADER END
+
+    //MOVING ALONG PATH BEG
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [W%02d]</rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year);
     strcat(text, buff);
+    //MOVING ALONG PATH END
 
-    //
+    //MOVING ALONG SIBLINGS BEG
+
+    //MOVING ALONG SIBLINGS END
+
     //TABLE BEG
     data_st t_d;
     t_d = d;
@@ -112,17 +150,23 @@ void diary_table_week(data_st d, char *text)
         strcat(text, buff);
     }
     //TABLE END
-    //
+
+    //FOOTER BEG
     sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
+    //FOOTER END
 #endif
 }
 
 void diary_table_day(data_st d, char *text)
 {
 #ifdef DIARY_TABLE_DAY_D
+    //HEADER BEG
     sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
     strcat(text, buff);
+    //HEADER END
+
+    //MOVING ALONG PATH BEG
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
@@ -133,7 +177,15 @@ void diary_table_day(data_st d, char *text)
     strcat(text, buff);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [D%02d-%s]</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_month, d.week_name);
     strcat(text, buff);
+    //MOVING ALONG PATH END
+
+    //MOVING ALONG SIBLINGS BEG
+
+    //MOVING ALONG SIBLINGS END
+
+    //FOOTER BEG
     sprintf(buff, "<rich_text style=\"italic\">\n\n\n\n\n\n\n\n\n=================================================================\n</rich_text>");
     strcat(text, buff);
+    //FOOTER END
 #endif
 }
