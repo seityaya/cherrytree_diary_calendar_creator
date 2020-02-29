@@ -276,7 +276,7 @@ void data_day_num_year(data_st *d)
     t.month = 1;
     t.day_month = 1;
     data_gr_to_jd(&t);
-    d->day_num_year = data_dif(&t, d);
+    d->day_num_year = data_dif(&t, d) + 1;
 }
 
 /** PARAM: year, month, day_month*/
