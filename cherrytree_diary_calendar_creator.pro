@@ -14,4 +14,6 @@ RESOURCES += \
     .gitignore \
     cherrytree_diary_calendar_creator_license \
 
-CONFIG += debug_and_release
+CONFIG += \
+    debug_and_release \
+    console

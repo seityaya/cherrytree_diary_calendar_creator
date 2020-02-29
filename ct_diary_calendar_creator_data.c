@@ -12,7 +12,7 @@ static uint8_t week_name[8][24] = {"Нд", "Пн", "Вт", "Ср", "Чт", "Пт
 /** PARAM: (year, month & day_month) or (year, week & week_day)*/
 void data_init(data_st *d, uint16_t year, uint16_t mount, uint16_t week, uint16_t day)
 {
-    if (0 == year) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
+    if (INTER(0, year, 0)) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
         /*Занулить всё*/
         d->jdn = 0;
         d->year = 0;
@@ -23,157 +23,198 @@ void data_init(data_st *d, uint16_t year, uint16_t mount, uint16_t week, uint16_
         d->day_max_year = 0;
         d->day_max_month = 0;
         d->week_year = 0;
-        d->week_day = 0;
+        d->day_week = 0;
         d->week_max_year = 0;
-    } else if (0 == mount && 0 == week) { /*Если год не равен нулю, а месяц и неделя равны нулю*/
+    } else if (INTER(0, mount, 0) && INTER(0, week, 0)) { /*Если год не равен нулю, а месяц и неделя равны нулю*/
         /*Вычислить*/
         d->year = year;
-        d->year_leap = 0;
-        d->day_max_year = 365;
-        d->week_max_year = 52;
-        d->jdn = 0;
+        data_year_leap(d);
+        data_day_max_year(d);
+        data_week_max_year(d);
         /*Занулить*/
+        d->jdn = 0;
         d->month = 0;
         d->week_year = 0;
         d->day_month = 0;
         d->day_num_year = 0;
         d->day_max_month = 0;
-        d->week_day = 0;
-    } else if (0 != mount && 0 != week) { /*Ошибка, два параметра сразу не указываются*/
-        printf("ERORR: data_init (0 != mount && 0 != week)\n");
-        exit(1);
-    } else if (0 != mount && 0 == week) { /*Месяц не равен нулю*/
-        if (0 == day) {
+        d->day_week = 0;
+    } else if (INTER(1, mount, 12) && INTER(0, week, 0)) { /*Месяц не равен нулю*/
+        if (INTER(0, day, 0)) {
             /**/
             d->year = year;
             d->month = mount;
-            d->day_month = 0;
+            d->day_month = day;
             /*Вычислить*/
-            d->year_leap = 0;
-            d->day_max_year = 0;
-            d->day_max_month = 30;
-            d->week_max_year = 0;
+            data_year_leap(d);
+            data_day_max_year(d);
+            data_week_max_year(d);
+            data_day_max_month(d);
             /*Занулить*/
             d->jdn = 0;
             d->day_num_year = 0;
             d->week_year = 0;
-            d->week_day = 0;
-        } else {
+            d->day_week = 0;
+        } else if (INTER(1, day, 31)) {
             /**/
             d->year = year;
             d->month = mount;
             d->day_month = day;
             /*Вычислить всё*/
-            d->jdn = 0;
-            d->year_leap = 0;
-            d->day_num_year = 0;
-            d->day_max_year = 0;
-            d->day_max_month = 0;
-            d->week_year = 0;
-            d->week_day = 0;
-            d->week_max_year = 0;
+            data_gr_to_jd(d);
+            data_day_num_year(d);
+            data_year_leap(d);
+            data_day_max_month(d);
+            data_dey_week(d);
+            data_week_year(d);
+            data_day_max_year(d);
+            data_week_max_year(d);
+        } else {
+            goto error_else;
         }
-    } else if (0 == mount && 0 != week) { /*Неделя не равна нулю*/
-        d->month = mount;
-        d->week_year = 0;
-        if (0 == day) {
+    } else if (INTER(0, mount, 0) && INTER(1, week, 53)) { /*Неделя не равна нулю*/
+        if (INTER(0, day, 0)) {
             /**/
             d->year = year;
             d->week_year = week;
-            d->week_day = 0;
+            d->day_week = day;
             /*Вычислить*/
-            d->year_leap = 0;
-            d->day_max_year = 0;
-            d->day_max_month = 0;
-            d->week_max_year = 0;
+            data_year_leap(d);
+            data_day_max_year(d);
+            data_week_max_year(d);
             /*Занулить*/
-            d->month = mount;
+            d->month = 0;
             d->jdn = 0;
             d->day_month = 0;
             d->day_num_year = 0;
-
-        } else {
+            d->day_max_month = 0;
+        } else if (INTER(1, day, 7)) {
             /**/
             d->year = year;
             d->week_year = week;
-            d->day_month = day;
+            d->day_week = day;
+            data_month(d);
+            data_day_month(d);
             /*Вычислить всё*/
-            d->week_day = 0;
-            d->jdn = 0;
-            d->year_leap = 0;
-            d->month = 0;
-            d->day_num_year = 0;
-            d->day_max_year = 0;
-            d->day_max_month = 30;
-            d->week_max_year = 0;
+            data_gr_to_jd(d);
+            data_day_num_year(d);
+            data_year_leap(d);
+            data_day_max_month(d);
+            data_day_max_year(d);
+            data_week_max_year(d);
+        } else {
+            goto error_else;
         }
     } else {
+    error_else:
         printf("ERORR: data_init(%d %d %d %d)\n", year, mount, week, day);
         exit(1);
     }
-
-    //TODO DEL BEG
-    d->year_leap = 0;
-    d->day_num_year = 0;
-    d->week_max_year = 365;
-    d->day_max_month = 30;
-    d->week_day = 1;
-    d->week_max_year = 52;
-    //TODO DEL END
-
-    //data_set_data(d);
-}
-
-void data_set(data_st *d)
-{
-    data_gr_to_jd(d);
-    data_day_num_year(d);
+    data_year_name(d);
     data_month_name(d);
-    data_year_leap(d);
-    data_day_max_month(d);
-    data_week_dey(d);
     data_week_day_name(d);
-    data_week_year(d);
 }
 
-/** PARAM: year, week, week_day */
-uint16_t data_month(data_st *d)
+/** PARAM: year, week, day_week */
+void data_month(data_st *d)
 {
-    UNUSED(d);
-    //TODO
-
     data_st t;
-    data_init(&t, d->year, 1, 0, 1);      /*вычисление параметров для первого января*/
-    if (t.week_day <= 4) {                /*первая неделя года*/
-    } else {                              /*неделя предыдущего года*/
+    int8_t delta = 0;
+    t.year = d->year;
+    t.month = 1;
+    t.day_month = 1;
+    data_gr_to_jd(&t);
+    data_dey_week(&t);
+    if (t.day_week <= 4) {
+        delta += t.day_week;
+    } else {
+        delta -= (7 - t.day_week);
+    }
+    t.jdn += ((d->week_year - 1) * 7) + d->day_week - delta;
+    data_jd_to_gr(&t);
+
+    d->month = t.month;
+}
+
+/** PARAM: year, week, day_week */
+void data_day_month(data_st *d)
+{
+    data_st t;
+    int8_t delta = 0;
+    t.year = d->year;
+    t.month = 1;
+    t.day_month = 1;
+    data_gr_to_jd(&t);
+    data_dey_week(&t);
+    if (t.day_week <= 4) {
+        delta += t.day_week;
+    } else {
+        delta -= (7 - t.day_week);
+    }
+    t.jdn += ((d->week_year - 1) * 7) + d->day_week - delta;
+    data_jd_to_gr(&t);
+
+    d->day_month = t.day_month;
+}
+
+/** PARAM: year, month, day_month */
+void data_week_year(data_st *d)
+{
+    data_st t_beg, t_end;
+
+    t_beg.year = d->year;
+    t_beg.month = 1;
+    t_beg.day_month = 1;
+    data_gr_to_jd(&t_beg);
+    data_dey_week(&t_beg);
+    if (t_beg.day_week <= 4) {
+        t_beg.jdn -= t_beg.day_week - 1;
+    } else {
+        t_beg.jdn += (7 - t_beg.day_week) + 1;
     }
 
-    d->month = 0;
-    return d->month;
+    t_end.year = d->year;
+    t_end.month = d->month;
+    t_end.day_month = d->day_month;
+    data_gr_to_jd(&t_end);
+    data_dey_week(&t_end);
+    t_end.jdn += (7 - t_end.day_week);
+
+    d->week_year = (data_dif(&t_beg, &t_end) / 7) + 1;
 }
 
-/** PARAM: @@@ */
-uint16_t data_week_year(data_st *d)
+/** PARAM: year */
+void data_week_max_year(data_st *d)
 {
-    UNUSED(d);
-    //TODO
+    data_st t_beg, t_end;
 
-    d->week_year = 0;
-    return d->week_year;
-}
+    t_beg.year = d->year;
+    t_beg.month = 1;
+    t_beg.day_month = 1;
+    data_gr_to_jd(&t_beg);
+    data_dey_week(&t_beg);
+    if (t_beg.day_week <= 4) {
+        t_beg.jdn -= t_beg.day_week - 1;
+    } else {
+        t_beg.jdn += (7 - t_beg.day_week) + 1;
+    }
 
-/** PARAM: @@@ */
-uint16_t data_week_max_year(data_st *d)
-{
-    UNUSED(d);
-    //TODO
+    t_end.year = d->year;
+    t_end.month = 12;
+    t_end.day_month = 31;
+    data_gr_to_jd(&t_end);
+    data_dey_week(&t_end);
+    if (t_end.day_week >= 4) {
+        t_end.jdn += (7 - t_end.day_week);
+    } else {
+        t_end.jdn -= t_end.day_week;
+    }
 
-    d->week_max_year = 52;
-    return d->week_max_year;
+    d->week_max_year = (data_dif(&t_beg, &t_end) / 7) + 1;
 }
 
 /** PARAM: year, month, day_month*/
-uint32_t data_gr_to_jd(data_st *d)
+void data_gr_to_jd(data_st *d)
 {
     uint32_t A, Y, M, D;
     A = (14 - d->month) / 12;
@@ -181,11 +222,26 @@ uint32_t data_gr_to_jd(data_st *d)
     M = d->month + 12 * A - 3;
     D = d->day_month;
     d->jdn = D + ((153 * M + 2) / 5) + 365 * Y + (Y / 4) - (Y / 100) + (Y / 400) - 32045;
-    return d->jdn;
+}
+
+/** PARAM: jdn*/
+void data_jd_to_gr(data_st *d)
+{
+    int32_t a, b, c, f, e, m;
+    a = (int32_t)(d->jdn + 32044);
+    b = (4 * a + 3) / 146097;
+    c = a - (146097 * b) / 4;
+    f = (4 * c + 3) / 1461;
+    e = c - (1461 * f) / 4;
+    m = (5 * e + 2) / 153;
+
+    d->year = (100 * b + f - 4800 + (m / 10));
+    d->month = (m + 3 - 12 * (m / 10));
+    d->day_month = (e - (153 * m + 2) / 5 + 1);
 }
 
 /** PARAM: year*/
-uint16_t data_year_leap(data_st *d)
+void data_year_leap(data_st *d)
 {
     if (d->year % 4 != 0) {
         d->year_leap = 0;
@@ -194,62 +250,58 @@ uint16_t data_year_leap(data_st *d)
     } else {
         d->year_leap = 1;
     }
-    return d->year_leap;
 }
 
-/** PARAM: month*/
-uint16_t data_day_max_month(data_st *d)
+/** PARAM: year, month*/
+void data_day_max_month(data_st *d)
 {
     data_year_leap(d);
-    d->day_max_month = (28 + (d->month + d->month / 8) % 2 + 2 % d->month + 1 / d->month * 2) + d->year_leap;
-    return d->day_max_month;
+    uint8_t t[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    d->day_max_month = (d->month != 2) ? (t[d->month]) : ((d->year_leap == 0) ? (t[d->month]) : 29);
 }
 
 /** PARAM: year_leap*/
-uint16_t data_day_max_year(data_st *d)
+void data_day_max_year(data_st *d)
 {
     data_year_leap(d);
     d->day_max_year = 365 + d->year_leap;
-    return d->day_max_year;
 }
 
 /** PARAM: year, month, day_month*/
-uint16_t data_day_num_year(data_st *d)
+void data_day_num_year(data_st *d)
 {
     data_gr_to_jd(d);
     data_st t;
-    data_init(&t, d->year, 1, 0, 1);
+    t.year = d->year;
+    t.month = 1;
+    t.day_month = 1;
+    data_gr_to_jd(&t);
     d->day_num_year = data_dif(&t, d);
-    return d->day_num_year;
 }
 
 /** PARAM: year, month, day_month*/
-uint16_t data_week_dey(data_st *d)
+void data_dey_week(data_st *d)
 {
     data_gr_to_jd(d);
-    d->week_day = (d->jdn % 7) + 1;
-    return d->week_day;
+    d->day_week = (d->jdn % 7) + 1;
 }
 
-/** PARAM: 0 */
-uint8_t *data_year_name(data_st *d)
+/** PARAM: NONE */
+void data_year_name(data_st *d)
 {
     strcpy((char *) d->year_name, (char *) year_name[0]);
-    return d->year_name;
 }
 
 /** PARAM: month */
-uint8_t *data_month_name(data_st *d)
+void data_month_name(data_st *d)
 {
     strcpy((char *) d->month_name, (char *) mount_name[d->month]);
-    return d->month_name;
 }
 
-/** PARAM: week_day */
-uint8_t *data_week_day_name(data_st *d)
+/** PARAM: day_week */
+void data_week_day_name(data_st *d)
 {
-    strcpy((char *) d->week_name, (char *) week_name[d->week_day]);
-    return d->week_name;
+    strcpy((char *) d->week_name, (char *) week_name[d->day_week]);
 }
 
 /** PARAM: year, month, day_month*/
@@ -259,19 +311,19 @@ uint32_t data_dif(data_st *now, data_st *diff)
 }
 
 /** PARAM: year, month, day_month*/
-uint32_t data_add(data_st *now, int32_t *add)
+void data_add(data_st *now, int32_t add)
 {
-    now->jdn += *add;
-    //TODO update
-    return now->jdn;
+    now->jdn += add;
+    data_jd_to_gr(now);
+    data_init(now, now->year, now->month, 0, now->day_month);
 }
 
 /** PARAM: ALL*/
-uint32_t data_print(data_st *now)
+void data_print(data_st *now, const char *str)
 {
+    printf("%s", str);
     printf("jdn : %d\n", now->jdn);
-    printf("data: %d %d %d\n", now->year, now->month, now->day_month);
-    printf("day : %d %d %d\n", now->day_num_year, now->day_max_month, now->day_max_year);
-    printf("week: %d %d %d\n", now->week_day, now->week_year, now->week_max_year);
-    return 0;
+    printf("data: Y:%d  M:%d    D:%d\n", now->year, now->month, now->day_month);
+    printf("day : N:%d  mM:%d  mY:%d n:%d \n", now->day_num_year, now->day_max_month, now->day_max_year, now->day_week);
+    printf("week: N:%d  mY:%d\n", now->week_year, now->week_max_year);
 }

@@ -1,6 +1,11 @@
 #ifndef CHERRYTREE_DIARY_CALENDAR_CREATOR_MAIN_H_
 #define CHERRYTREE_DIARY_CALENDAR_CREATOR_MAIN_H_
 
+#include "ct_diary_calendar_creator_data.h"
+#include "ct_diary_calendar_creator_node.h"
+#include "ct_diary_calendar_creator_table.h"
+#include <stdio.h>
+
 /*HARDCORE DEFINE*/
 /************************************************/
 #define TRUE (1 == 1)
@@ -8,6 +13,7 @@
 #define UNUSED(x) ((void) (x))
 
 /*DEBAG*/
+#define CREATE_TEXT TRUE
 #define FILE_WRITE TRUE
 #define FILE_OPEN TRUE
 
@@ -40,10 +46,10 @@
 
 /*CONFIG DEFINE*/
 /************************************************/
-#define YEARBEG 1999
-#define YEAREND 2001
-#define MONTHBEG 1
-#define MONTHEND 12
+#define BEG_YEAR 2015
+#define END_YEAR 2025
+#define BEG_MONTH 1
+#define END_MONTH 12
 #define LANG_DIARY LANG_RU
 #define FILE_NAME "cherrytree_diary_calendar"
 #define NAME_DIARY "WELCOME TO YOUR DIARY"

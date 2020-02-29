@@ -35,8 +35,6 @@ void diary_node_end(char *text)
 
 void diary_node_main(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
 #ifdef DIARY_NODE_MAIN
     data_init(&d, 0, 0, 0, 0);
     diary_node_beg(text, d.year, NODE_TYPE_MAIN, d.month, d.week_year, d.day_month);
@@ -48,10 +46,8 @@ void diary_node_main(data_st d, char *text)
 
 void diary_node_year(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
 #ifdef DIARY_NODE_YEAR
-    for (d.year = YEARBEG; d.year <= YEAREND; d.year++) {
+    for (d.year = BEG_YEAR; d.year <= END_YEAR; d.year++) {
         data_init(&d, d.year, 0, 0, 0);
         diary_node_beg(text, d.year, NODE_TYPE_YEAR, d.month, d.week_year, d.day_month);
         diary_table_year(d, text);
@@ -65,11 +61,9 @@ void diary_node_year(data_st d, char *text)
 
 void diary_node_month(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
 #ifdef DIARY_NODE_MONTH
     diary_node_beg(text, d.year, NODE_TYPE_MONTH, d.month, d.week_year, d.day_month);
-    for (d.month = MONTHBEG; d.month <= MONTHEND; d.month++) {
+    for (d.month = BEG_MONTH; d.month <= END_MONTH; d.month++) {
         data_init(&d, d.year, d.month, 0, 0);
         diary_node_beg(text, d.year, NODE_TYPE_MONTH, d.month, d.week_year, d.day_month);
         diary_table_month(d, text);
@@ -81,8 +75,6 @@ void diary_node_month(data_st d, char *text)
 
 void diary_node_week(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
 #ifdef DIARY_NODE_WEEK
     diary_node_beg(text, d.year, NODE_TYPE_WEEK, d.month, d.week_year, d.day_month);
     for (d.week_year = 1; d.week_year <= d.week_max_year; d.week_year++) {
@@ -97,11 +89,9 @@ void diary_node_week(data_st d, char *text)
 
 void diary_node_day(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
 #ifdef DIARY_NODE_DAY
     diary_node_beg(text, d.year, NODE_TYPE_DAY, d.month, d.week_year, d.day_month);
-    for (d.month = MONTHBEG; d.month <= MONTHEND; d.month++) {
+    for (d.month = BEG_MONTH; d.month <= END_MONTH; d.month++) {
         data_init(&d, d.year, d.month, 0, 0);
         for (d.day_month = 1; d.day_month <= d.day_max_month; d.day_month++) {
             data_init(&d, d.year, d.month, 0, d.day_month);

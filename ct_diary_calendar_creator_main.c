@@ -1,12 +1,12 @@
-#include "ct_diary_calendar_creator_node.h"
-#include "ct_diary_calendar_creator_table.h"
-#include "ct_diary_calendar_creator_data.h"
-#include <stdio.h>
+#include "ct_diary_calendar_creator_main.h"
 
 int main(int argc, char *argv[]){
     UNUSED(argc);
     UNUSED(argv);
 
+    data_st d;
+
+#if CREATE_TEXT == TRUE
     printf("BEG ALLOCATION\n");
     char *text;
     text = malloc(SIZE_TEXT);
@@ -18,16 +18,16 @@ int main(int argc, char *argv[]){
         exit(0);
     }
     printf("END ALLOCATION\n\n");
+#endif
 
-    data_st d;
-    data_init(&d, 0, 0, 0, 0);
-
+#if CREATE_TEXT == TRUE
     printf("BEG CREATE\n");
     strcat(text, "<?xml version=\"1.0\"?>\n");
     strcat(text, "<cherrytree>\n");
     diary_node_main(d, text);
     strcat(text, "</cherrytree>\n");
     printf("END CREATE\n\n");
+#endif
 
 #if FILE_WRITE == TRUE
     printf("BEG WRITE\n");
@@ -52,6 +52,8 @@ int main(int argc, char *argv[]){
     printf("END OPEN\n\n");
 #endif
 
+#if CREATE_TEXT == TRUE
     free(text);
+#endif
     return 0;
 }

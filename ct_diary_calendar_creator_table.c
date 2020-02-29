@@ -1,5 +1,7 @@
 #include "ct_diary_calendar_creator_table.h"
 
+static char buff[20000];
+
 void diary_table_main(data_st d, char *text)
 {
     UNUSED(d);
@@ -20,7 +22,7 @@ void diary_table_month(data_st d, char *text)
 {
     UNUSED(d);
     UNUSED(text);
-#ifdef DIARY_TABLE_MOUNT
+#ifdef DIARY_TABLE_MONTH
 
 #endif
 }
