@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void diary_table_main(data_st d, char *text);
+void diary_table_root(data_st d, char *text);
 void diary_table_year(data_st d, char *text);
 void diary_table_month(data_st d, char *text);
 void diary_table_week(data_st d, char *text);

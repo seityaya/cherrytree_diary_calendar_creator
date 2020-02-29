@@ -9,10 +9,10 @@
 #include <stdio.h>
 #include <string.h>
 
-void diary_node_beg(char *text, uint16_t year, uint8_t node_type, uint16_t month, uint16_t yearweek, uint16_t day);
+void diary_node_beg(char *text, data_st d, uint8_t node_type);
 void diary_node_end(char *text);
 
-void diary_node_main(data_st d, char *text);
+void diary_node_root(data_st d, char *text);
 void diary_node_year(data_st d, char *text);
 void diary_node_month(data_st d, char *text);
 void diary_node_week(data_st d, char *text);

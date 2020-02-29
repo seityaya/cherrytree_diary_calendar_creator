@@ -17,20 +17,20 @@
 #define FILE_WRITE TRUE
 #define FILE_OPEN TRUE
 
-#define DIARY_NODE_MAIN
+#define DIARY_NODE_ROOT
 #define DIARY_NODE_YEAR
 #define DIARY_NODE_MONTH
 #define DIARY_NODE_WEEK
 #define DIARY_NODE_DAY
 
-#define DIARY_TABLE_MAIN
-#define DIARY_TABLE_YEAR
-#define DIARY_TABLE_MONTH
-#define DIARY_TABLE_WEEK
-#define DIARY_TABLE_DAY
+#define DIARY_TABLE_ROOT_D
+#define DIARY_TABLE_YEAR_D
+#define DIARY_TABLE_MONTH_D
+#define DIARY_TABLE_WEEK_D
+#define DIARY_TABLE_DAY_D
 
 /*TYPE NODE*/
-#define NODE_TYPE_MAIN 0
+#define NODE_TYPE_ROOT 0
 #define NODE_TYPE_YEAR 1
 #define NODE_TYPE_MONTH 2
 #define NODE_TYPE_WEEK 3
@@ -38,7 +38,7 @@
 
 /*HARDCORE DEFINE*/
 #define TABLE_SIZE 41
-#define SIZE_TEXT 1000000
+#define SIZE_TEXT 10000000
 #define FILE_EXTENSION ".ctd"
 #define LANG_RU 0
 #define LANG_EN 1
@@ -46,7 +46,7 @@
 
 /*CONFIG DEFINE*/
 /************************************************/
-#define BEG_YEAR 2015
+#define BEG_YEAR 2016
 #define END_YEAR 2025
 #define BEG_MONTH 1
 #define END_MONTH 12

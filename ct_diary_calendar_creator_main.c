@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
     printf("BEG CREATE\n");
     strcat(text, "<?xml version=\"1.0\"?>\n");
     strcat(text, "<cherrytree>\n");
-    diary_node_main(d, text);
+    diary_node_root(d, text);
     strcat(text, "</cherrytree>\n");
     printf("END CREATE\n\n");
 #endif

@@ -2,43 +2,135 @@
 
 static char buff[20000];
 
-void diary_table_main(data_st d, char *text)
+void diary_table_root(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
-#ifdef DIARY_TABLE_MAIN
+#ifdef DIARY_TABLE_ROOT_D
+    sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
+    strcat(text, buff);
 
+    //
+    //TABLE BEG
+    sprintf(buff, "<rich_text >\nY:\n</rich_text>");
+    strcat(text, buff);
+    for (uint16_t t = BEG_YEAR; t <= END_YEAR; t++) {
+        data_init(&d, t, 0, 0, 0);
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%d%c</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year, (0 == t % 5) ? '\n' : ' ');
+        strcat(text, buff);
+    }
+    //TABLE END
+    //
+    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    strcat(text, buff);
 #endif
 }
+
 void diary_table_year(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
-#ifdef DIARY_TABLE_YEAR
+#ifdef DIARY_TABLE_YEAR_D
+    sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
+    strcat(text, buff);
 
+    //
+    //TABLE BEG
+    sprintf(buff, "<rich_text >\nM:\n</rich_text>");
+    strcat(text, buff);
+    for (uint16_t t = BEG_MONTH; t <= END_MONTH; t++) {
+        data_init(&d, d.year, t, 0, 0);
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d </rich_text>", d.year, NODE_TYPE_MONTH, d.month, d.month);
+        strcat(text, buff);
+    }
+    sprintf(buff, "<rich_text >\nW:\n</rich_text>");
+    strcat(text, buff);
+    for (uint16_t t = 1; t <= d.week_max_year; t++) {
+        data_init(&d, d.year, 0, t, 0);
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d%c</rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year, (0 == t % 12) ? '\n' : ' ');
+        strcat(text, buff);
+    }
+    //TABLE END
+    //
+    sprintf(buff, "<rich_text link=\"node %04d\">\n=================================================================\n</rich_text>", 0);
+    strcat(text, buff);
 #endif
 }
+
 void diary_table_month(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
-#ifdef DIARY_TABLE_MONTH
+#ifdef DIARY_TABLE_MONTH_D
+    sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [M%02d-%s]</rich_text>", d.year, NODE_TYPE_MONTH, d.month, d.month, d.month_name);
+    strcat(text, buff);
 
+    //
+    //TABLE BEG
+    sprintf(buff, "<rich_text >\nD:\n</rich_text>");
+    strcat(text, buff);
+    for (uint16_t t = 1; t <= d.day_max_month; t++) {
+        data_init(&d, d.year, d.month, 0, t);
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d%c</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_month, (0 == t % 7) ? '\n' : ' ');
+        strcat(text, buff);
+    }
+    //TABLE END
+    //
+    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n=================================================================\n</rich_text>", 0);
+    strcat(text, buff);
 #endif
 }
+
 void diary_table_week(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
-#ifdef DIARY_TABLE_WEEK
+#ifdef DIARY_TABLE_WEEK_D
+    sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [W%02d]</rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year);
+    strcat(text, buff);
 
+    //
+    //TABLE BEG
+    sprintf(buff, "<rich_text >\nW:\n</rich_text>");
+    strcat(text, buff);
+    for (uint16_t t = 1; t <= 7; t++) {
+        data_init(&d, d.year, 0, d.week_year, t);
+        sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d%c</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_week, (0 == t % 7) ? '\n' : ' ');
+        strcat(text, buff);
+    }
+    //TABLE END
+    //
+    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    strcat(text, buff);
 #endif
 }
+
 void diary_table_day(data_st d, char *text)
 {
-    UNUSED(d);
-    UNUSED(text);
-#ifdef DIARY_TABLE_DAY
-
+#ifdef DIARY_TABLE_DAY_D
+    sprintf(buff, "<rich_text>THIS Y%04d  M%02d/D%02d  W%02d/D%02d\n</rich_text>", d.year, d.month, d.day_month, d.week_year, d.day_week);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">[ROOT]</rich_text>", 0, NODE_TYPE_ROOT, 0);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [Y%04d]</rich_text>", d.year, NODE_TYPE_YEAR, 0, d.year);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [M%02d-%s]</rich_text>", d.year, NODE_TYPE_MONTH, d.month, d.month, d.month_name);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [W%02d]</rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\"> [D%02d-%s]</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_month, d.week_name);
+    strcat(text, buff);
+    sprintf(buff, "<rich_text link=\"node %04d\">\n\n\n\n\n\n\n\n\n=================================================================\n</rich_text>", 0);
+    strcat(text, buff);
 #endif
 }
