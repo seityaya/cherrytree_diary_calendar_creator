@@ -46,8 +46,8 @@
 
 /*CONFIG DEFINE*/
 /************************************************/
-#define BEG_YEAR 2016
-#define END_YEAR 2025
+#define BEG_YEAR 2011
+#define END_YEAR 2030
 #define BEG_MONTH 1
 #define END_MONTH 12
 #define LANG_DIARY LANG_RU

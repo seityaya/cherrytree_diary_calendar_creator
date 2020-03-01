@@ -332,18 +332,43 @@ void data_add(data_st *now, int32_t add, int8_t type_interval)
         data_jd_to_gr(now);
         data_init(now, now->year, now->month, 0, now->day_month);
     } else if (NODE_TYPE_WEEK == type_interval || -NODE_TYPE_WEEK == type_interval) {
-        now->jdn += add * 7 * (type_interval / NODE_TYPE_WEEK);
-        data_jd_to_gr(now);
-        data_init(now, now->year, now->month, 0, now->day_month);
+        for (int16_t i = 0; i < add; i++) {
+            now->week_year += (type_interval / NODE_TYPE_MONTH);
+            if (now->week_max_year < now->week_year) {
+                now->week_year = 1;
+                now->year++;
+            }
+            if (1 > now->week_year) {
+                data_st t_save;
+                t_save = *now;
+                data_init(&t_save, t_save.year - 1, 0, t_save.week_year, now->day_week);
+                now->week_year = t_save.week_max_year;
+                now->year--;
+            }
+        }
+        data_month(now);
+        data_init(now, now->year, 0, now->week_year, now->day_week);
     } else if (NODE_TYPE_MONTH == type_interval || -NODE_TYPE_MONTH == type_interval) {
-        now->month += add * 1 * (type_interval / NODE_TYPE_MONTH);
-        (now->month > 12) ? now->month %= 12 : now->month;
-        (now->month == 0) ? now->month = 12 : now->month;
-        (now->month < 0) ? (now->month %= 12) : now->month;
+        for (int16_t i = 0; i < add; i++) {
+            now->month += (type_interval / NODE_TYPE_MONTH);
+            if (12 < now->month) {
+                now->month = 1;
+                now->year++;
+            }
+            if (1 > now->month) {
+                now->month = 12;
+                now->year--;
+            }
+        }
         data_init(now, now->year, now->month, 0, now->day_month);
     } else if (NODE_TYPE_YEAR == type_interval || -NODE_TYPE_YEAR == type_interval) {
         now->year += add * 1 * (type_interval / NODE_TYPE_YEAR);
-        data_init(now, now->year, now->month, 0, now->day_month);
+        if (now->month != 0) {
+            data_init(now, now->year, now->month, 0, now->day_month);
+        }
+        if (now->week_year != 0) {
+            data_init(now, now->year, 0, (now->week_year == 53) ? (now->week_year - 1) : (now->week_year), now->day_week);
+        }
     }
 }
 
