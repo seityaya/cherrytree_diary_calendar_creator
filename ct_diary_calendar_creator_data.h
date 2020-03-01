@@ -10,18 +10,18 @@
 
 typedef struct
 {
-    uint32_t jdn;           //номер юлианского дня
-    uint16_t year;          //григорианский год
+    uint32_t jdn;                //номер юлианского дня
+    uint16_t year;               //григорианский год
     uint16_t year_week_overflow; //флаг перехода недели через границу года //NOTE: ISSUE 1
     uint16_t year_leap;          //високосный флаг
-    uint16_t month;         //месяц
-    uint16_t day_month;     //номер дня в месяце
-    uint16_t day_num_year;  //номер дня в году
-    uint16_t day_max_year;  //количество дней в году
-    uint16_t day_max_month; //количество дней в месяце
-    uint16_t day_week;      //номер дня в недели
-    uint16_t week_year;     //номер недели в году
-    uint16_t week_max_year; //количество недель в году
+    int16_t month;               //месяц
+    uint16_t day_month;          //номер дня в месяце
+    uint16_t day_num_year;       //номер дня в году
+    uint16_t day_max_year;       //количество дней в году
+    uint16_t day_max_month;      //количество дней в месяце
+    uint16_t day_week;           //номер дня в недели
+    uint16_t week_year;          //номер недели в году
+    uint16_t week_max_year;      //количество недель в году
 
     uint8_t year_name[24];
     uint8_t month_name[24];
@@ -48,7 +48,7 @@ void data_week_day_name(data_st *d);
 void data_year_name(data_st *d);
 void data_month_name(data_st *d);
 
-void data_add(data_st *now, int32_t add);
+void data_add(data_st *now, int32_t add, int8_t type_interval);
 void data_print(data_st *now, const char *str);
 uint32_t data_dif(data_st *now, data_st *diff);
 

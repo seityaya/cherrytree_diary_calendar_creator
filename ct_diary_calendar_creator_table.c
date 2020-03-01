@@ -16,7 +16,7 @@ void diary_table_root(data_st d, char *text)
     //MOVING ALONG PATH END
 
     //MOVING ALONG SIBLINGS BEG
-
+    //VOID
     //MOVING ALONG SIBLINGS END
 
     //TABLE BEG
@@ -52,11 +52,26 @@ void diary_table_year(data_st d, char *text)
     //MOVING ALONG PATH END
 
     //MOVING ALONG SIBLINGS BEG
+    data_st t_save;
+    t_save = d;
+    sprintf(buff, "<rich_text>\n</rich_text>");
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_YEAR, d.day_num_year);
+    strcat(text, buff);
 
+    sprintf(buff, "<rich_text>             @              </rich_text>");
+    strcat(text, buff);
+
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">Y❭❭ </rich_text>", d.year, NODE_TYPE_YEAR, d.day_num_year);
+    strcat(text, buff);
     //MOVING ALONG SIBLINGS END
 
     //TABLE BEG
-    sprintf(buff, "<rich_text >\nM:\n</rich_text>");
+    sprintf(buff, "<rich_text>\nM:\n</rich_text>");
     strcat(text, buff);
     for (uint16_t t = BEG_MONTH; t <= END_MONTH; t++) {
         data_init(&d, d.year, t, 0, 0);
@@ -97,7 +112,30 @@ void diary_table_month(data_st d, char *text)
     //MOVING ALONG PATH END
 
     //MOVING ALONG SIBLINGS BEG
+    data_st t_save;
+    t_save = d;
+    sprintf(buff, "<rich_text>\n</rich_text>");
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_MONTH, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬M </rich_text>", d.year, NODE_TYPE_MONTH, d.day_num_year);
+    strcat(text, buff);
 
+    sprintf(buff, "<rich_text>         @          </rich_text>");
+    strcat(text, buff);
+
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">M❭❭ </rich_text>", d.year, NODE_TYPE_MONTH, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">Y❭❭ </rich_text>", d.year, NODE_TYPE_MONTH, d.day_num_year);
+    strcat(text, buff);
     //MOVING ALONG SIBLINGS END
 
     //TABLE BEG
@@ -135,7 +173,39 @@ void diary_table_week(data_st d, char *text)
     //MOVING ALONG PATH END
 
     //MOVING ALONG SIBLINGS BEG
+    data_st t_save;
+    t_save = d;
+    data_init(&t_save, t_save.year, 0, t_save.week_year, t_save.day_week);
+    sprintf(buff, "<rich_text>\n</rich_text>");
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_WEEK, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    //        data_add(&d, 1, -NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬M </rich_text>", d.year, NODE_TYPE_WEEK, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_WEEK);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬W </rich_text>", d.year, NODE_TYPE_WEEK, d.day_num_year);
+    strcat(text, buff);
 
+    sprintf(buff, "<rich_text>     @      </rich_text>");
+    strcat(text, buff);
+
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_WEEK);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">W❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">M❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">Y❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
     //MOVING ALONG SIBLINGS END
 
     //TABLE BEG
@@ -180,7 +250,46 @@ void diary_table_day(data_st d, char *text)
     //MOVING ALONG PATH END
 
     //MOVING ALONG SIBLINGS BEG
+    data_st t_save;
+    t_save = d;
+    sprintf(buff, "<rich_text>\n</rich_text>");
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬M </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_WEEK);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬W </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, -NODE_TYPE_DAY);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬D </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
 
+    sprintf(buff, "<rich_text> @  </rich_text>");
+    strcat(text, buff);
+
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_DAY);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">D❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_WEEK);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">W❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_MONTH);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">M❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
+    d = t_save;
+    data_add(&d, 1, NODE_TYPE_YEAR);
+    sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">Y❭❭ </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
+    strcat(text, buff);
     //MOVING ALONG SIBLINGS END
 
     //FOOTER BEG

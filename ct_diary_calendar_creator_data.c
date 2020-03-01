@@ -321,11 +321,30 @@ uint32_t data_dif(data_st *now, data_st *diff)
 }
 
 /** PARAM: year, month, day_month*/
-void data_add(data_st *now, int32_t add)
+void data_add(data_st *now, int32_t add, int8_t type_interval)
 {
-    now->jdn += add;
-    data_jd_to_gr(now);
-    data_init(now, now->year, now->month, 0, now->day_month);
+    if (0 == type_interval) {
+        now->jdn += add;
+        data_jd_to_gr(now);
+        data_init(now, now->year, now->month, 0, now->day_month);
+    } else if (NODE_TYPE_DAY == type_interval || -NODE_TYPE_DAY == type_interval) {
+        now->jdn += add * 1 * (type_interval / NODE_TYPE_DAY);
+        data_jd_to_gr(now);
+        data_init(now, now->year, now->month, 0, now->day_month);
+    } else if (NODE_TYPE_WEEK == type_interval || -NODE_TYPE_WEEK == type_interval) {
+        now->jdn += add * 7 * (type_interval / NODE_TYPE_WEEK);
+        data_jd_to_gr(now);
+        data_init(now, now->year, now->month, 0, now->day_month);
+    } else if (NODE_TYPE_MONTH == type_interval || -NODE_TYPE_MONTH == type_interval) {
+        now->month += add * 1 * (type_interval / NODE_TYPE_MONTH);
+        (now->month > 12) ? now->month %= 12 : now->month;
+        (now->month == 0) ? now->month = 12 : now->month;
+        (now->month < 0) ? (now->month %= 12) : now->month;
+        data_init(now, now->year, now->month, 0, now->day_month);
+    } else if (NODE_TYPE_YEAR == type_interval || -NODE_TYPE_YEAR == type_interval) {
+        now->year += add * 1 * (type_interval / NODE_TYPE_YEAR);
+        data_init(now, now->year, now->month, 0, now->day_month);
+    }
 }
 
 /** PARAM: ALL*/
