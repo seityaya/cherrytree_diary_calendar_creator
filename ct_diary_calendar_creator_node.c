@@ -4,7 +4,7 @@ static char buff[20000];
 
 void diary_node_beg(char *text, data_st d, uint8_t node_type)
 {
-    uint32_t temp = 0;
+    int32_t temp = 0;
     char node_name = ' ';
     if (NODE_TYPE_ROOT == node_type) {
         temp = 0;

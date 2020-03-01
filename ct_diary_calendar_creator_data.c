@@ -10,7 +10,7 @@ static uint8_t week_name[8][24] = {"Нд", "Пн", "Вт", "Ср", "Чт", "Пт
 #endif
 
 /** PARAM: (year, month & day_month) or (year, week & week_day)*/
-void data_init(data_st *d, uint16_t year, uint16_t mount, uint16_t week, uint16_t day)
+void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t day)
 {
     if (INTER(0, year, 0)) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
         /*Занулить всё*/
@@ -226,7 +226,7 @@ void data_week_max_year(data_st *d)
 /** PARAM: year, month, day_month*/
 void data_gr_to_jd(data_st *d)
 {
-    uint32_t A, Y, M, D;
+    int32_t A, Y, M, D;
     A = (14 - d->month) / 12;
     Y = d->year + 4800 - A;
     M = d->month + 12 * A - 3;
@@ -315,7 +315,7 @@ void data_week_day_name(data_st *d)
 }
 
 /** PARAM: year, month, day_month*/
-uint32_t data_dif(data_st *now, data_st *diff)
+int32_t data_dif(data_st *now, data_st *diff)
 {
     return (diff->jdn - now->jdn);
 }
