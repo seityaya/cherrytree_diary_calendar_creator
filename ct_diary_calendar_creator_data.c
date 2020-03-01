@@ -2,11 +2,13 @@
 #include "ct_diary_calendar_creator_main.h"
 
 #if LANG_DIARY == LANG_RU
-static uint8_t year_name[13][24] = {"Год"};
-static uint8_t mount_name[13][24] = {"Мес", "Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"};
-static uint8_t week_name[8][24] = {"Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"};
-#elif LANG == LANG_EN
-
+const char year_name[13][24] = {"Год"};
+const char mount_name[13][24] = {"Мес", "Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"};
+const char week_name[9][24] = {"Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс", "Дт"};
+#elif LANG_DIARY == LANG_EN
+const char year_name[13][24] = {"Year"};
+const char month_name[13][24] = {"Mth", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+const char week_name[9][24] = {"Wk", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su", "Dt"};
 #endif
 
 /** PARAM: (year, month & day_month) or (year, week & week_day)*/
@@ -299,19 +301,19 @@ void data_dey_week(data_st *d)
 /** PARAM: NONE */
 void data_year_name(data_st *d)
 {
-    strcpy((char *) d->year_name, (char *) year_name[0]);
+    strcpy((char *) d->year_name, year_name[0]);
 }
 
 /** PARAM: month */
 void data_month_name(data_st *d)
 {
-    strcpy((char *) d->month_name, (char *) mount_name[d->month]);
+    strcpy((char *) d->month_name, month_name[d->month]);
 }
 
 /** PARAM: day_week */
 void data_week_day_name(data_st *d)
 {
-    strcpy((char *) d->week_name, (char *) week_name[d->day_week]);
+    strcpy((char *) d->week_name, week_name[d->day_week]);
 }
 
 /** PARAM: year, month, day_month*/

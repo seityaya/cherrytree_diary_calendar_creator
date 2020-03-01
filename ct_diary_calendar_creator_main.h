@@ -38,7 +38,7 @@
 
 /*HARDCORE DEFINE*/
 #define TABLE_SIZE 41
-#define SIZE_TEXT 10000000
+#define SIZE_TEXT 20000000
 #define FILE_EXTENSION ".ctd"
 #define LANG_RU 0
 #define LANG_EN 1
@@ -50,10 +50,11 @@
 #define END_YEAR 2030
 #define BEG_MONTH 1
 #define END_MONTH 12
-#define LANG_DIARY LANG_RU
+#define LANG_DIARY LANG_EN
 #define FILE_NAME "cherrytree_diary_calendar"
 #define NAME_DIARY "WELCOME TO YOUR DIARY"
 #define MAIN_PAGE_NAME "DIARY" /*5 symbol max*/
+#define NODE_PREFIX "DIARY"    /*5 symbol max*/
 /************************************************/
 
 #endif /*CHERRYTREE_DIARY_CALENDAR_CREATOR_MAIN_H_*/

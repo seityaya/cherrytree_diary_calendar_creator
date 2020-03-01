@@ -5,22 +5,22 @@ static char buff[20000];
 void diary_node_beg(char *text, data_st d, uint8_t node_type)
 {
     int32_t temp = 0;
-    char node_name = ' ';
+    char node_type_symbol = ' ';
     if (NODE_TYPE_ROOT == node_type) {
         temp = 0;
-        node_name = 'R';
+        node_type_symbol = 'R';
     } else if (NODE_TYPE_YEAR == node_type) {
         temp = 0;
-        node_name = 'Y';
+        node_type_symbol = 'Y';
     } else if (NODE_TYPE_MONTH == node_type) {
         temp = d.month;
-        node_name = 'M';
+        node_type_symbol = 'M';
     } else if (NODE_TYPE_WEEK == node_type) {
         temp = d.week_year;
-        node_name = 'W';
+        node_type_symbol = 'W';
     } else if (NODE_TYPE_DAY == node_type) {
         temp = d.day_num_year;
-        node_name = 'D';
+        node_type_symbol = 'D';
     } else {
         exit(0);
     }
@@ -29,15 +29,16 @@ void diary_node_beg(char *text, data_st d, uint8_t node_type)
             "<node custom_icon_id=\"0\" "
             "foreground=\"\" "
             "is_bold=\"False\" "
-            "name=\"Y%04d %c%03d\" "
+            "name=\"%s Y%04d %c%03d\" "
             "prog_lang=\"custom-colors\" "
             "readonly=\"False\" "
             "tags=\"\" "
             "ts_creation=\"0\" "
             "ts_lastsave=\"0\" "
             "unique_id=\"%04d%01d%03d\">\n",
+            NODE_PREFIX,
             d.year,
-            node_name,
+            node_type_symbol,
             temp,
 
             d.year,
