@@ -1,0 +1,2089 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="По раздельности" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567940596.42" ts_lastsave="1583142152.36" unique_id="16">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="День" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567940611.32" ts_lastsave="1583145307.62" unique_id="17">
+			<rich_text family="monospace">L = 88
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace"> [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт) </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 71
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">                       </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 59
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓   
+┃  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">         </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃        [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 57
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓   
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">         </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 53 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">   </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 51
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">   </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃      [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 43</rich_text>
+			<rich_text> (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)  ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 41 </rich_text>
+			<rich_text>(min)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃</rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+L = 41 </rich_text>
+			<rich_text>(formatted) (uniform) 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" scale="small"> </rich_text>
+			<rich_text family="monospace">┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ </rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Неделя" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567940623.67" ts_lastsave="1583142129.8" unique_id="18">
+			<rich_text family="monospace">L = 71 </rich_text>
+			<rich_text>(formatted) (uniform)  
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                                   </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃               [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                        ┃
+┣━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┫
+┃ [31 Пн] │ [01 Вт] │ [02 Ср] │ [03 Чт] │ [04 Пт] │ [05 Сб] │ [06 Вс] ┃
+┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
+
+L = 57 </rich_text>
+			<rich_text>(formatted)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                     </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                  ┃
+┣━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┫
+┃  Пн   │  Вт   │  Ср   │  Чт   │  Пт   │  Сб   │  Вc   ┃
+┠───────┼───────┼───────┼───────┼───────┼───────┼───────┨
+┃ [31]  │ [01]  │ [02]  │ [03]  │ [04]  │ [05]  │ [06]  ┃      
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛
+
+L = 57 </rich_text>
+			<rich_text>(formatted)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                     </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                  ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃      │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃      │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛
+
+L = 57 </rich_text>
+			<rich_text>(formatted) (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                     </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                  ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃  Нд  │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  Дн  │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛
+
+L = 57 </rich_text>
+			<rich_text>(formatted)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                     </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                  ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃      │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┃      ├──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃      │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛
+
+L = 50 </rich_text>
+			<rich_text>(formatted) (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" justification="left">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" justification="left">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">&lt;&lt;--</rich_text>
+			<rich_text family="monospace" justification="left">              </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">--&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┨
+┃         </rich_text>
+			<rich_text family="monospace">[DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н) </rich_text>
+			<rich_text family="monospace" justification="left">        ┃
+</rich_text>
+			<rich_text family="monospace">┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃      
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛
+
+L = 41 </rich_text>
+			<rich_text>(formatted)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">&lt;&lt;--</rich_text>
+			<rich_text family="monospace" justification="left">         </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">--&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃    </rich_text>
+			<rich_text family="monospace">[DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н) </rich_text>
+			<rich_text family="monospace" justification="left">    ┃
+</rich_text>
+			<rich_text family="monospace">┣━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+┃ Дн │ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃ Нд │[31]│[01]│[02]│[03]│[04]│[05]│[06]┃      
+┗━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛
+
+L = 36 </rich_text>
+			<rich_text>(formatted) (min) (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">&lt;&lt;--</rich_text>
+			<rich_text family="monospace" justification="left">    </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace" justification="left">--&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace" justification="left">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┨
+┃  </rich_text>
+			<rich_text family="monospace">[DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)</rich_text>
+			<rich_text family="monospace" justification="left">  ┃
+</rich_text>
+			<rich_text family="monospace">┣━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+┃ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠────┼────┼────┼────┼────┼────┼────┨
+┃[31]│[01]│[02]│[03]│[04]│[05]│[06]┃      
+┗━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Месяц" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567941279.74" ts_lastsave="1583142165.91" unique_id="21">
+			<rich_text>L = 71 
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                                               </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                       [DIARY].[2007]/(01 Янв)                       ┃
+┣━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┫</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text family="monospace">┃ Н╲Дн │   Пн   │   Вт   │   Ср   │   Чт   │   Пт   │   Сб   │   Вс   ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [01] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [02] │        │        │        │        │        │        │        ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [03] │        │        │        │        │        │        │        ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [04] │        │        │        │        │        │        │        ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [05] │        │        │        │        │        │        │        ┃
+┗━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛</rich_text>
+			<rich_text>
+
+L = 59
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                                   </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                 [DIARY].[2007]/(01 Янв)                 ┃
+</rich_text>
+			<rich_text>┣━━━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃  Н╲Дн  │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  [01]  │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  [02]  │      │      │      │      │      │      │      ┃
+┠────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  [03]  │      │      │      │      │      │      │      ┃
+┠────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  [04]  │      │      │      │      │      │      │      ┃
+┠────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃  [05]  │      │      │      │      │      │      │      ┃
+┗━━━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text>
+
+L = 57 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                                 </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                [DIARY].[2007]/(01 Янв)                ┃
+</rich_text>
+			<rich_text>┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃ Н╲Дн │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [01] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [02] │      │      │      │      │      │      │      ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [03] │      │      │      │      │      │      │      ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [04] │      │      │      │      │      │      │      ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [05] │      │      │      │      │      │      │      ┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text>
+
+L = 55
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                               </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃               [DIARY].[2007]/(01 Янв)               ┃
+</rich_text>
+			<rich_text>┣━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃Н╲Дн│  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[01]│ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[02]│      │      │      │      │      │      │      ┃
+┠────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[03]│      │      │      │      │      │      │      ┃
+┠────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[04]│      │      │      │      │      │      │      ┃
+┠────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[05]│      │      │      │      │      │      │      ┃
+┗━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text>
+
+L = 43
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                   </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/(01 Янв)           ┃
+</rich_text>
+			<rich_text>┣━━━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃ Н╲Дн │ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠──────┼────┼────┼────┼────┼────┼────┼────┨
+┃ [01] │[31]│[01]│[02]│[03]│[04]│[05]│[06]┃
+┠──────┼────┼────┼────┼────┼────┼────┼────┨
+┃ [02] │    │    │    │    │    │    │    ┃
+┠──────┼────┼────┼────┼────┼────┼────┼────┨
+┃ [03] │    │    │    │    │    │    │    ┃
+┠──────┼────┼────┼────┼────┼────┼────┼────┨
+┃ [04] │    │    │    │    │    │    │    ┃
+┠──────┼────┼────┼────┼────┼────┼────┼────┨
+┃ [05] │    │    │    │    │    │    │    ┃
+┗━━━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛</rich_text>
+			<rich_text>
+
+L = 41 (min) (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                 </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/(01 Янв)         ┃
+</rich_text>
+			<rich_text>┣━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃Н╲Дн│ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[01]│[31]│[01]│[02]│[03]│[04]│[05]│[06]┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[02]│    │    │    │    │    │    │    ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[03]│    │    │    │    │    │    │    ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[04]│    │    │    │    │    │    │    ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[05]│    │    │    │    │    │    │    ┃
+┗━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛</rich_text>
+			<rich_text>
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Год" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567940628.97" ts_lastsave="1569594609.24" unique_id="19">
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">
+</rich_text>
+			<rich_text>
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Без недель" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1569594609.24" ts_lastsave="1569594664.61" unique_id="27">
+				<rich_text>L = 37
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ &lt;&lt;&lt;&lt;     [DIARY].(2007)      &gt;&gt;&gt;&gt; ┃
+┠────────┬────────┬────────┬────────┨
+┃[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]┃
+┠────────┼────────┼────────┼────────┨
+┃[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]┃
+┠────────┼────────┼────────┼────────┨
+┃[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]┃
+┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 45
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ &lt;&lt;&lt;&lt;       [DIARY].(2007)            &gt;&gt;&gt;&gt; ┃
+┠──────────┬──────────┬──────────┬──────────┨
+┃ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] ┃
+┠──────────┼──────────┼──────────┼──────────┨
+┃ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] ┃
+┠──────────┼──────────┼──────────┼──────────┨
+┃ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] ┃
+┗━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 55
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ &lt;&lt;&lt;&lt;            [DIARY].(2007)                 &gt;&gt;&gt;&gt; ┃
+┠────────┬────────┬────────┬────────┬────────┬────────┨
+┃[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]┃
+┠────────┼────────┼────────┼────────┼────────┼────────┨
+┃[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]│[01 Янв]┃
+┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 67
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ &lt;&lt;&lt;&lt;            [DIARY].(2007)                             &gt;&gt;&gt;&gt; ┃
+┠──────────┬──────────┬──────────┬──────────┬──────────┬──────────┨
+┃ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┼──────────┨
+┃ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] │ [01 Янв] ┃
+┗━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 73
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  &lt;&lt;&lt;&lt;   [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)   &gt;&gt;&gt;&gt;</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">                                         ┃
+┠─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┨
+┃[</rich_text>
+				<rich_text family="monospace">01 </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│[02 ]│[03 ]│[04 ]│[05 ]│[06 ]│[07 ]│[08 ]│[09 ]│[10 ]│[11 ]│[12 ]┃
+┃[Янв]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]┃
+┗━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┛</rich_text>
+				<rich_text>
+
+L = 97
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  &lt;&lt;&lt;&lt;   [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)   &gt;&gt;&gt;&gt;</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">                                                                 ┃
+┠───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┨
+┃ [</rich_text>
+				<rich_text family="monospace">01 </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] │ [02 ] │ [03 ] │ [04 ] │ [05 ] │ [06 ] │ [07 ] │ [08 ] │ [09 ] │ [10 ] │ [11 ] │ [12 ] ┃
+┃ [Янв] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] │ [Фев] ┃
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛</rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="С неделями" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567955929.03" ts_lastsave="1583142218.19" unique_id="13">
+				<rich_text>L = 31 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                 </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)             </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠────────┤[52]                ┃
+┃[01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│    [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">][02][03]    ┃
+┠────────┤                    ┃
+┃[02 Фев]│    [05][06][07][08]┃
+┠────────┤[09]                ┃
+┃[03 Мар]│    [10][11][12][13]┃
+┠────────┤[14]                ┃
+┃[04 Апр]│    [15][16][17][18]┃
+┠────────┤                    ┃
+┃[05 Май]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[06 Июн]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[07 Июл]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[08 Авг]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[09 Сен]│    [15][16][17][18]┃
+┠────────┤                    ┃
+┃[10 Окт]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[11 Ноб]│    [15][16][17][18]┃
+┠────────┤[19]                ┃
+┃[12 Дек]│    [15][16][17][18]┃
+┠────────┤[01]                ┃
+┗━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 39 (uniform)</rich_text>
+				<rich_text background="#ffff4b4d67cc">
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                         </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃            [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)          </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠──────────┤ [52]                     ┃
+┃ [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] │      [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]      ┃
+┠──────────┤                          ┃
+┃ [02 Фев] │      [05] [06] [07] [08] ┃
+┠──────────┤ [09]                     ┃
+┃ [03 Мар] │      [10] [11] [12] [13] ┃
+┠──────────┤ [14]                     ┃
+┃ [04 Апр] │      [15] [16] [17] [18] ┃
+┠──────────┤                          ┃
+┃ [05 Май] │      [19] [20] [21] [22] ┃
+┠──────────┤ [23]                     ┃
+┃ [06 Июн] │      [24] [25] [26] [27] ┃
+┠──────────┤ [28]                     ┃
+┃ [07 Июл] │      [29] [30] [31] [32] ┃
+┠──────────┤ [33]                     ┃
+┃ [08 Авг] │      [34] [35] [36] [37] ┃
+┠──────────┤ [38]                     ┃
+┃ [09 Сен] │      [39] [40] [41] [42] ┃
+┠──────────┤                          ┃
+┃ [10 Окт] │      [43] [44] [45] [46] ┃
+┠──────────┤ [47]                     ┃
+┃ [11 Ноб] │      [48] [49] [50] [51] ┃
+┠──────────┤ [52]                     ┃
+┃ [12 Дек] │      [53] [54] [55] [56] ┃
+┠──────────┤ [01]                     ┃
+┗━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 41
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                           </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃            [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)            </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠────────────┤ [52]                     ┃
+┃  [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]  │      [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]      ┃
+┠────────────┤                          ┃
+┃  [02 Фев]  │      [05] [06] [07] [08] ┃
+┠────────────┤ [09]                     ┃
+┃  [03 Мар]  │      [10] [11] [12] [13] ┃
+┠────────────┤ [14]                     ┃
+┃  [04 Апр]  │      [15] [16] [17] [18] ┃
+┠────────────┤                          ┃
+┃  [05 Май]  │      [19] [20] [21] [22] ┃
+┠────────────┤ [23]                     ┃
+┃  [06 Июн]  │      [24] [25] [26] [27] ┃
+┠────────────┤ [28]                     ┃
+┃  [07 Июл]  │      [29] [30] [31] [32] ┃
+┠────────────┤ [33]                     ┃
+┃  [08 Авг]  │      [34] [35] [36] [37] ┃
+┠────────────┤ [38]                     ┃
+┃  [09 Сен]  │      [39] [40] [41] [42] ┃
+┠────────────┤                          ┃
+┃  [10 Окт]  │      [43] [44] [45] [46] ┃
+┠────────────┤ [47]                     ┃
+┃  [11 Ноб]  │      [48] [49] [50] [51] ┃
+┠────────────┤ [52]                     ┃
+┃  [12 Дек]  │      [53] [54] [55] [56] ┃
+┠────────────┤ [01]                     ┃
+┗━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 41
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                           </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃             [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)           </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠──────────┤  [52]                      ┃
+┃ [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] │       [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]       ┃
+┠──────────┤                            ┃
+┃ [02 Фев] │       [05] [06] [07] [08]  ┃
+┠──────────┤  [09]                      ┃
+┃ [03 Мар] │       [10] [11] [12] [13]  ┃
+┠──────────┤  [14]                      ┃
+┃ [04 Апр] │       [15] [16] [17] [18]  ┃
+┠──────────┤                            ┃
+┃ [05 Май] │       [19] [20] [21] [22]  ┃
+┠──────────┤  [23]                      ┃
+┃ [06 Июн] │       [24] [25] [26] [27]  ┃
+┠──────────┤  [28]                      ┃
+┃ [07 Июл] │       [29] [30] [31] [32]  ┃
+┠──────────┤  [33]                      ┃
+┃ [08 Авг] │       [34] [35] [36] [37]  ┃
+┠──────────┤  [38]                      ┃
+┃ [09 Сен] │       [39] [40] [41] [42]  ┃
+┠──────────┤                            ┃
+┃ [10 Окт] │       [43] [44] [45] [46]  ┃
+┠──────────┤  [47]                      ┃
+┃ [11 Ноб] │       [48] [49] [50] [51]  ┃
+┠──────────┤  [52]                      ┃
+┃ [12 Дек] │       [53] [54] [55] [56]  ┃
+┠──────────┤  [01]                      ┃
+┗━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 41 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                           </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃             [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)           </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠──────────────┤[52]                    ┃
+┃ [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] ⟨31⟩│     [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]     ┃
+┠──────────────┤                        ┃
+┃ [02 Фев] ⟨31⟩│     [05] [06] [07] [08]┃
+┠──────────────┤[09]                    ┃
+┃ [03 Мар] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [04 Апр] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [05 Май] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [06 Июн] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [07 Июл] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [08 Авг] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [09 Сен] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [10 Окт] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [11 Ноб] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [12 Дек] ⟨31⟩│     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┗━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 41 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                           </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃             [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)           </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠──────────────┤[52]                    ┃
+┃ [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]⟨31⟩ │     [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]     ┃
+┠──────────────┤                        ┃
+┃ [02 Фев]⟨31⟩ │     [05] [06] [07] [08]┃
+┠──────────────┤[09]                    ┃
+┃ [03 Мар]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [04 Апр]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [05 Май]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [06 Июн]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [07 Июл]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [08 Авг]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [09 Сен]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [10 Окт]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [11 Ноб]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [12 Дек]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┗━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 45  
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                               </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃            [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)                </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠────────────────┤ [52]                     ┃                          
+┃ [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]  </rich_text>
+				<rich_text family="monospace">⟨</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">31</rich_text>
+				<rich_text family="monospace">⟩</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> │      [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">] [02] [03]      ┃
+┠────────────────┤                          ┃
+┃ [02 Фев]  {28} │      [05] [06] [07] [08] ┃
+┠────────────────┤ [09]                     ┃
+┃ [03 Мар]  {28} │      [10] [11] [12] [13] ┃
+┠────────────────┤ [14]                     ┃
+┃ [04 Апр]  {28} │      [15] [16] [17] [18] ┃
+┠────────────────┤                          ┃
+┃ [05 Май]  {28} │      [19] [20] [21] [22] ┃
+┠────────────────┤ [23]                     ┃
+┃ [06 Июн]  {28} │      [24] [25] [26] [27] ┃
+┠────────────────┤ [28]                     ┃
+┃ [07 Июл]  {28} │      [29] [30] [31] [32] ┃
+┠────────────────┤ [33]                     ┃
+┃ [08 Авг]  {28} │      [34] [35] [36] [37] ┃
+┠────────────────┤ [38]                     ┃
+┃ [09 Сен]  {28} │      [39] [40] [41] [42] ┃
+┠────────────────┤                          ┃
+┃ [10 Окт]  {28} │      [43] [44] [45] [46] ┃
+┠────────────────┤ [47]                     ┃
+┃ [11 Ноб]  {28} │      [48] [49] [50] [51] ┃
+┠────────────────┤ [52]                     ┃
+┃ [12 Дек]  {28} │      [53] [54] [55] [56] ┃
+┠────────────────┤ [01]                     ┃
+┗━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+L = 57 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                                           </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃            [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)                            </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+				<rich_text>
+┣━━━━━━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+</rich_text>
+				<rich_text family="monospace">┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]   {00/31}  │        [</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text> 
+
+L = 57 (formatted)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace">                                             </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃      [DIARY].(2007)                         [ST]      ┃
+┣━━━━━━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃
+┃ [01 Янв] {DD</rich_text>
+				<rich_text family="monospace" scale="sub">dd/31</rich_text>
+				<rich_text family="monospace">W</rich_text>
+				<rich_text family="monospace" scale="sub">W</rich_text>
+				<rich_text family="monospace">M</rich_text>
+				<rich_text family="monospace" scale="sub">M</rich_text>
+				<rich_text family="monospace">}</rich_text>
+				<rich_text family="monospace" scale="sub">  </rich_text>
+				<rich_text family="monospace">│        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+ L = 67 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓    
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                                                     </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨ 
+┃                           [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)                        </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┃
+┠──┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬──┨
+┃  │[</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│[02]│[03]│[04]│[05]│[06]│[07]│[08]│[09]│[10]│[11]│[12]│  ┃
+┠──┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴──┨
+┃[53] [04]      [04] [53] [04] [04] [04] [04] [04] [04] [04]  [04]┃
+┃   [01] [05] [53] [53] [53] [53] [01] [05] [53] [53] [53] [53]   ┃
+┃   [02] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53]   ┃
+┃   [03] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53]   ┃
+┃   [03]      [53] [53] [53] [53] [02] [53] [53] [53] [53] [53]   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text family="monospace">
+
+</rich_text>
+				<rich_text> L = 71 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                                                         </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨ 
+┃               [DIARY].</rich_text>
+				<rich_text family="monospace">(2007)                                        </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┃
+┠────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┨
+┃[12]│[</rich_text>
+				<rich_text family="monospace">01</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│[02]│[03]│[04]│[05]│[06]│[07]│[08]│[09]│[10]│[11]│[12]│[01]┃
+┠────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┨
+┃   [53] [04]     [04]  [53] [04] [04] [04] [04] [04] [04] [04] [04]  ┃
+┃[01] [01] [05] [53] [53] [53] [53] [01] [05] [53] [53] [53] [53] [01]┃
+┃[02] [02] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┃[03] [03] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┃[03] [03]      [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+ L = 79 
+</rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">                                                                 </rich_text>
+				<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+				<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨ 
+┃                           [DIARY].(2007)                                    ┃
+┠──┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬──┨
+┃  │[</rich_text>
+				<rich_text family="monospace">01 </rich_text>
+				<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│[02 ]│[03 ]│[04 ]│[05 ]│[06 ]│[07 ]│[08 ]│[09 ]│[10 ]│[11 ]│[12 ]│  ┃
+┃  │[Янв]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│[Фев]│  ┃
+┠──┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴──┨
+┃[53]  [04]        [04]  [53]  [04]  [04]  [04]  [04]  [04]  [04]  [04]  [04] ┃
+┃   [01]  [05]  [53]  [53]  [53]  [53]  [01]  [05]  [53]  [53]  [53]  [53]    ┃
+┃   [02]  [53]  [53]  [53]  [53]  [53]  [02]  [53]  [53]  [53]  [53]  [53]    ┃
+┃   [03]  [53]  [53]  [53]  [53]  [53]  [02]  [53]  [53]  [53]  [53]  [53]    ┃
+┃   [03]  [53]  [53]  [53]  [53]  [02]  [53]  [53]  [53]  [53]  [53]          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+				<rich_text>
+
+</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Жизнь" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567940639.18" ts_lastsave="1583142341.02" unique_id="20">
+			<rich_text family="monospace">L = 91 </rich_text>
+			<rich_text>(uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                               (DIARY)                                                   ┃
+┣━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┫
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] │ [2009] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] │ [2009] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] │ [2009] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] │ [2009] │ [2009] ┃
+┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+
+</rich_text>
+			<rich_text>L = 73 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                (DIARY)                                ┃
+┣━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┫
+┃ [2010] │ [2015] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2011] │ [2016] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2012] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2013] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] ┃
+┠────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [2014] │ [2006] │ [2007] │ [2008] │ [2009] │ [2006] │ [2007] │ [2008] ┃
+┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛
+</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+</rich_text>
+			<rich_text>L = 71 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                               (DIARY)                        ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+
+</rich_text>
+			<rich_text>L = 56 
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 
+┃                  (DIARY)                             ┃
+┣━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┫
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┗━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+
+</rich_text>
+			<rich_text>L = 46 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 
+┃                  (DIARY)                   ┃
+┣━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┫
+┃ [2000] │ [2001] │ [2002] │ [2003] │ [2004] ┃
+┠────────┼────────┼────────┼────────┼────────┨
+┃ [2005] │ [2006] │ [2007] │ [2008] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┨
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┨
+┃ [2005] │ [2006] │ [2007] │ [2008] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┨
+┃ [2010] │ [2006] │ [2007] │ [2008] │ [2009] ┃
+┠────────┼────────┼────────┼────────┼────────┨
+┃ [2005] │ [2006] │ [2007] │ [2008] │ [2009] ┃
+┗━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛
+</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+</rich_text>
+			<rich_text>L = 41
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃              (DIARY)                  ┃
+┣━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┫
+┃[ 2010]│[ 2006]│[ 2007]│[ 2008]│[ 2009]┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃[2010 ]│[2006 ]│[2007 ]│[2008 ]│[2009 ]┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃[20 10]│[20 06]│[20 07]│[20 08]│[20 09]┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃ [2010]│ [2006]│ [2007]│ [2008]│ [2009]┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃[2010] │[2006] │[2007] │[2008] │[2009] ┃
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+
+</rich_text>
+			<rich_text>L = 41 (formatted) (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ (DIARY)                               ┃
+┣━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┫
+┃</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>│</rich_text>
+			<rich_text scale="small">[2 0 1 0]</rich_text>
+			<rich_text>┃
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+
+</rich_text>
+			<rich_text>L = 36 (uniform)
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃           (DIARY)                ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+┃[2010]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┨
+┃[2006]│[2007]│[2008]│[2009]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text background="#ffff4b4d67cc" family="monospace">
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Все вместе" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567707724.7" ts_lastsave="1583142053.49" unique_id="6">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Все вместе L = 71" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567974323.31" ts_lastsave="1583145344.57" unique_id="23">
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">&lt;---</rich_text>
+			<rich_text family="monospace">                       </rich_text>
+			<rich_text background="#eeee9090da11" family="monospace">---&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9e99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                [DIARY].[2007]/</rich_text>
+			<rich_text>[01 Янв].</rich_text>
+			<rich_text family="monospace">[01 Н]/(01 Вт)               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                                   </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃               [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                        ┃
+┣━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┫
+┃ [31 Пн] │ [01 Вт] │ [02 Ср] │ [03 Чт] │ [04 Пт] │ [05 Сб] │ [06 Вс] ┃
+┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                                               </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃                       [DIARY].[2007]/(01 Янв)                       ┃
+┣━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┯━━━━━━━━┫</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text family="monospace">┃ Н╲Дн │   Пн   │   Вт   │   Ср   │   Чт   │   Пт   │   Сб   │   Вс   ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [01] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [02] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [03] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [04] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┠──────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┨
+┃ [05] │  [31]  │  [01]  │  [02]  │  [03]  │  [04]  │  [05]  │  [06]  ┃
+┗━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┷━━━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000">                                                         </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨ 
+┃               [DIARY].</rich_text>
+			<rich_text family="monospace">(2007)                                        </rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┃
+┠────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┨
+┃[12]│[</rich_text>
+			<rich_text family="monospace">01</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]│[02]│[03]│[04]│[05]│[06]│[07]│[08]│[09]│[10]│[11]│[12]│[01]┃
+┠────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┨
+┃   [53] [04]     [04]  [53] [04] [04] [04] [04] [04] [04] [04] [04]  ┃
+┃[01] [01] [05] [53] [53] [53] [53] [01] [05] [53] [53] [53] [53] [01]┃
+┃[02] [02] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┃[03] [03] [53] [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┃[03] [03]      [53] [53] [53] [53] [02] [53] [53] [53] [53] [53] [02]┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                               (DIARY)                               ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫
+</rich_text>
+			<rich_text family="monospace">┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]│[2009]┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃[2010]│[2006]│[2007]│[2008]│[2009]│[2006]│[2007]│[2008]│[2009]│[2009]┃</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Все вместе L = 57" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1567974472.16" ts_lastsave="1583145352.17" unique_id="24">
+			<rich_text>┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓   
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#9090eeee9090">&lt;&lt;&lt;-</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#eeeee9e99090">&lt;&lt;--</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#eeee9090da11">&lt;---</rich_text>
+			<rich_text>         </rich_text>
+			<rich_text background="#eeee9090da11">---&gt;</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#eeeee9e99090">--&gt;&gt;</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#9090eeee9090">-&gt;&gt;&gt;</rich_text>
+			<rich_text>  </rich_text>
+			<rich_text background="#1e1e9090ffff">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[01 Янв].[01 Н]/(01 Вт)          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+##
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">&lt;&lt;--</rich_text>
+			<rich_text family="monospace">                     </rich_text>
+			<rich_text background="#eeeee9b99090" family="monospace">--&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃       [DIARY].[2007]/[</rich_text>
+			<rich_text family="monospace" scale="sup">Дек</rich_text>
+			<rich_text family="monospace">][</rich_text>
+			<rich_text family="monospace" scale="sub">Янв</rich_text>
+			<rich_text family="monospace">].(01 Н)                  ┃
+┣━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┫
+┃  Пн   │  Вт   │  Ср   │  Чт   │  Пт   │  Сб   │  Вc   ┃
+┠───────┼───────┼───────┼───────┼───────┼───────┼───────┨
+┃ [31]  │ [01]  │ [02]  │ [03]  │ [04]  │ [05]  │ [06]  ┃      
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace">                                 </rich_text>
+			<rich_text background="#9090eeee9090" family="monospace">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace">  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃      [DIARY].[2007]/(01 Янв)                [ST]      ┃
+┣━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┯━━━━━━┫</rich_text>
+			<rich_text>
+</rich_text>
+			<rich_text family="monospace">┃ Н╲Дн │  Пн  │  Вт  │  Ср  │  Чт  │  Пт  │  Сб  │  Вc  ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [01] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [02] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [03] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [04] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┠──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┨
+┃ [05] │ [31] │ [01] │ [02] │ [03] │ [04] │ [05] │ [06] ┃
+┗━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┷━━━━━━┛</rich_text>
+			<rich_text>
+##
+</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000">                                           </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000">  ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃            [DIARY].</rich_text>
+			<rich_text family="monospace">(2007)                            </rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000"> ┃</rich_text>
+			<rich_text family="monospace">
+┣━━━━━━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]   {00/31}  │        [</rich_text>
+			<rich_text family="monospace">01</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000">]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤  [52]                          ┃                          
+┃  [01 Янв]   {00/31}  │        [01]  [02]  [03]  [01]  ┃
+┠──────────────────────┤                                ┃
+┗━━━━━━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+			<rich_text family="monospace">
+</rich_text>
+			<rich_text>##
+</rich_text>
+			<rich_text family="monospace">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 
+┃                  (DIARY)                             ┃
+┣━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┯━━━━━━━━━━┫
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┠──────────┼──────────┼──────────┼──────────┼──────────┨
+┃  [2000]  │  [2001]  │  [2002]  │  [2003]  │  [2004]  ┃
+┗━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┷━━━━━━━━━━┛</rich_text>
+			<rich_text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</rich_text>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="False" name="Все вместе L = 41" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1568718274.47" ts_lastsave="1583145393.43" unique_id="26">
+			<rich_text family="monospace" justification="left">##
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace" justification="left">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000" family="monospace" justification="left">&lt;&lt;--</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe" family="monospace" justification="left">&lt;---</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe" family="monospace" justification="left">---&gt;</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000" family="monospace" justification="left">--&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace" justification="left">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left" scale="small"> </rich_text>
+			<rich_text family="monospace" justification="left">┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [</rich_text>
+			<rich_text family="monospace" foreground="#dfdf00001111" justification="left">DIARY</rich_text>
+			<rich_text family="monospace" justification="left">].[</rich_text>
+			<rich_text family="monospace" foreground="#1e1e9090ffff" justification="left">2007</rich_text>
+			<rich_text family="monospace" justification="left">]/[</rich_text>
+			<rich_text family="monospace" foreground="#0000b18c0000" justification="left">01 Янв</rich_text>
+			<rich_text family="monospace" justification="left">].[</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#9fc38a040000" justification="left">01 Н</rich_text>
+			<rich_text>]/(</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#d20008a2be9d" justification="left" weight="heavy">01 Вт</rich_text>
+			<rich_text>)┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+##
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000">&lt;&lt;&lt;-</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000">&lt;&lt;--</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe">&lt;---</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#d2d20808bebe">---&gt;</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#d3d3b6b60000">--&gt;&gt;</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#0000b1b10000">-&gt;&gt;&gt;</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text background="#1e1e9090ffff">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text scale="small"> </rich_text>
+			<rich_text>┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [DIARY].[2007]</rich_text>
+			<rich_text family="monospace" justification="left">/[</rich_text>
+			<rich_text family="monospace" foreground="#1313b7b71313" justification="left" scale="sub" weight="heavy">Дек</rich_text>
+			<rich_text family="monospace" justification="left">][</rich_text>
+			<rich_text family="monospace" foreground="#1313b7b71313" justification="left" scale="sup" weight="heavy">Янв</rich_text>
+			<rich_text family="monospace" justification="left">].(</rich_text>
+			<rich_text family="monospace" foreground="#9fc38a040000" justification="left" weight="heavy">01 Н</rich_text>
+			<rich_text>)</rich_text>
+			<rich_text family="monospace" foreground="#9fc38a040000" justification="left" weight="heavy">        </rich_text>
+			<rich_text>┃
+┣━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+┃ Нд │ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃ Дн │[31]│[01]│[02]│[03]│[04]│[05]│[06]┃
+┗━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy">
+##
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left" weight="heavy">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy"> </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace" justification="left" weight="heavy">&lt;&lt;&lt;-</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy">                   </rich_text>
+			<rich_text background="#0000b1b10000" family="monospace" justification="left" weight="heavy">-&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy"> </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" justification="left" weight="heavy">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ [</rich_text>
+			<rich_text family="monospace" foreground="#dfdf00001111" justification="left" weight="heavy">DIARY</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy">].[</rich_text>
+			<rich_text family="monospace" foreground="#1e1e9090ffff" justification="left" weight="heavy">2007</rich_text>
+			<rich_text family="monospace" justification="left" weight="heavy">]/(</rich_text>
+			<rich_text family="monospace" foreground="#1313b7b71313" justification="left" weight="heavy">01 Янв</rich_text>
+			<rich_text family="monospace" justification="left">)               ┃
+┣━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┯━━━━┫
+┃Н╲Дн│ Пн │ Вт │ Ср │ Чт │ Пт │ Сб │ Вc ┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃</rich_text>
+			<rich_text>[01]│[31]│[01]│[02]│[03]│[04]│[05]│[06]┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[02]│[07]│[08]│[09]│[10]│[11]│[12]│[13]┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[03]│[14]│[15]│[16]│[17]│[18]│[19]│[20]┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[04]│[21]│[22]│[23]│[24]│[25]│[26]│[27]┃
+┠────┼────┼────┼────┼────┼────┼────┼────┨
+┃[05]│[28]│[29]│[30]│[31]│[01]│[02]│[03]┃</rich_text>
+			<rich_text family="monospace" justification="left">
+┗━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┷━━━━┛
+##
+</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+</rich_text>
+			<rich_text family="monospace" foreground="#000000000000" justification="left">┃ </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000" justification="left">&lt;&lt;&lt;&lt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000" justification="left">                             </rich_text>
+			<rich_text background="#1e1e9090ffff" family="monospace" foreground="#000000000000" justification="left">&gt;&gt;&gt;&gt;</rich_text>
+			<rich_text family="monospace" foreground="#000000000000" justification="left"> ┃
+┠─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─┨
+┃ </rich_text>
+			<rich_text family="monospace" justification="left">[</rich_text>
+			<rich_text family="monospace" foreground="#dfdf00001111" justification="left">DIARY</rich_text>
+			<rich_text family="monospace" justification="left">].(</rich_text>
+			<rich_text family="monospace" foreground="#1e1e9090ffff" justification="left" weight="heavy">2007</rich_text>
+			<rich_text family="monospace" justification="left">)                       </rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left"> ┃</rich_text>
+			<rich_text family="monospace" justification="left">
+┣━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━┫
+┠──────────────┤</rich_text>
+			<rich_text>[52]                    ┃
+┃ [01 Янв]⟨31⟩ │     [01] [02] [03]     ┃
+┠──────────────┤                        ┃
+┃ [02 Фев]⟨31⟩ │     [05] [06] [07] [08]┃</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">
+┠──────────────┤[09]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">03 Мар</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">04 Апр</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">05 Май</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">06 Июн</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">07 Июл</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">08 Авг</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">09 Сен</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">10 Окт</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">11 Ноя</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┃ [</rich_text>
+			<rich_text family="monospace" justification="left">12 Дек</rich_text>
+			<rich_text background="#ffffffffffff" family="monospace" foreground="#000000000000" justification="left">]⟨31⟩ │     [10] [11] [12] [13]┃
+┠──────────────┤[14]                    ┃
+┗━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━┛</rich_text>
+			<rich_text family="monospace" justification="left">
+##
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ (</rich_text>
+			<rich_text family="monospace" foreground="#dfdf00001111" justification="left" weight="heavy">DIARY</rich_text>
+			<rich_text family="monospace" justification="left">)                               ┃
+┣━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┯━━━━━━━┫
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">┃
+┠───────┼───────┼───────┼───────┼───────┨
+┃</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">│</rich_text>
+			<rich_text family="monospace" justification="left" scale="small">[2 0 1 0]</rich_text>
+			<rich_text family="monospace" justification="left">┃
+┗━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┷━━━━━━━┛
+
+
+
+
+
+
+
+
+
+
+</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Параметры" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1569775028.52" ts_lastsave="1569775056.41" unique_id="1">
+		<rich_text>Цвета:
+Ссылки:
+Дневник -
+Год - 
+Месяц -
+    Дни в прошлом месяце -
+    Дни в будующем месяце -
+Неделя -
+День -
+
+
+Жирность:
+Для текущей страницы -
+
+Скобки:
+Для текущей страницы -
+Для ссылок -
+Для информации -
+
+Названия:
+Имя
+Веток
+Дата создания
+Индексы</rich_text>
+	</node>
+	<node custom_icon_id="0" foreground="" is_bold="False" name="Идинтификаторы веток" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1569775056.41" ts_lastsave="1583142023.74" unique_id="2">
+		<rich_text>N:         
+0-diary
+1-year
+2-mount
+3-weak
+4-day
+
+ID V1:
+                      Y    N M  W  D
+R_Diary              =0000 0 00 00 00
+  L__Year_1          =XXXX 1 00 00 00
+     L__Mounts       =XXXX 2 00 00 00
+     |  L__Mount_1   =XXXX 2 XX 00 00
+     |  L__Mount_2   =XXXX 2 XX 00 00
+     L__Weeks        =XXXX 3 00 00 00
+     |  L__Week_1    =XXXX 3 00 XX 00
+     |  L__Week_2    =XXXX 3 00 XX 00
+     L__Days         =XXXX 4 00 00 00
+        L__Day_1     =XXXX 4 XX XX XX
+        L__Day_2     =XXXX 4 XX XX XX
+
+
+ID V2:
+                      Y    N MWD  
+R_Diary              =0000 0 000
+  L__Year_1          =XXXX 1 000
+     L__Mounts       =XXXX 2 000
+     |  L__Mount_1   =XXXX 2 0MM
+     |  L__Mount_2   =XXXX 2 0MM
+     L__Weeks        =XXXX 3 000
+     |  L__Week_1    =XXXX 3 0WW
+     |  L__Week_2    =XXXX 3 0WW
+     L__Days         =XXXX 4 000
+        L__Day_1     =XXXX 4 DDD
+        L__Day_2     =XXXX 4 DDD</rich_text>
+	</node>
+</cherrytree>
