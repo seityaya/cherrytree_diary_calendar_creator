@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define INTER(beg, compare, end) ((((compare) > (beg)) || ((compare) == (beg))) && (((compare) <= (end))) && ((((beg) < (end)) || (beg) == (end)) ? TRUE : FALSE))
+#define BELONGS_TO_INTERVAL(beg, compare, end) (((compare) >= (beg)) && (((compare) <= (end))) && ((((beg) < (end)) || (beg) == (end)) ? TRUE : FALSE))
 
 typedef struct
 {
