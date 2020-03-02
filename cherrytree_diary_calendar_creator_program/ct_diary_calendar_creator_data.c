@@ -14,7 +14,7 @@ const char week_name[9][24] = {"Wk", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su", "
 /** PARAM: (year, month & day_month) or (year, week & week_day)*/
 void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t day)
 {
-    if (INTER(0, year, 0)) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
+    if (BELONGS_TO_INTERVAL(0, year, 0)) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
         /*Занулить всё*/
         d->jdn = 0;
         d->year = 0;
@@ -27,7 +27,7 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
         d->week_year = 0;
         d->day_week = 0;
         d->week_max_year = 0;
-    } else if (INTER(0, mount, 0) && INTER(0, week, 0)) { /*Если год не равен нулю, а месяц и неделя равны нулю*/
+    } else if (BELONGS_TO_INTERVAL(0, mount, 0) && BELONGS_TO_INTERVAL(0, week, 0)) { /*Если год не равен нулю, а месяц и неделя равны нулю*/
         /*Вычислить*/
         d->year = year;
         data_year_leap(d);
@@ -41,8 +41,8 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
         d->day_num_year = 0;
         d->day_max_month = 0;
         d->day_week = 0;
-    } else if (INTER(1, mount, 12) && INTER(0, week, 0)) { /*Месяц не равен нулю*/
-        if (INTER(0, day, 0)) {
+    } else if (BELONGS_TO_INTERVAL(1, mount, 12) && BELONGS_TO_INTERVAL(0, week, 0)) { /*Месяц не равен нулю*/
+        if (BELONGS_TO_INTERVAL(0, day, 0)) {
             /**/
             d->year = year;
             d->month = mount;
@@ -57,7 +57,7 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
             d->day_num_year = 0;
             d->week_year = 0;
             d->day_week = 0;
-        } else if (INTER(1, day, 31)) {
+        } else if (BELONGS_TO_INTERVAL(1, day, 31)) {
             /**/
             d->year = year;
             d->month = mount;
@@ -74,8 +74,8 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
         } else {
             goto error_else;
         }
-    } else if (INTER(0, mount, 0) && INTER(1, week, 53)) { /*Неделя не равна нулю*/
-        if (INTER(0, day, 0)) {
+    } else if (BELONGS_TO_INTERVAL(0, mount, 0) && BELONGS_TO_INTERVAL(1, week, 53)) { /*Неделя не равна нулю*/
+        if (BELONGS_TO_INTERVAL(0, day, 0)) {
             /**/
             d->year = year;
             d->week_year = week;
@@ -90,7 +90,7 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
             d->day_month = 0;
             d->day_num_year = 0;
             d->day_max_month = 0;
-        } else if (INTER(1, day, 7)) {
+        } else if (BELONGS_TO_INTERVAL(1, day, 7)) {
             /**/
             d->year = year;
             d->week_year = week;
@@ -323,19 +323,19 @@ int32_t data_dif(data_st *now, data_st *diff)
 }
 
 /** PARAM: year, month, day_month*/
-void data_add(data_st *now, int32_t add, int8_t type_interval)
+void data_add(data_st *now, int32_t add, int8_t type_BELONGS_TO_INTERVALval)
 {
-    if (0 == type_interval) {
+    if (0 == type_BELONGS_TO_INTERVALval) {
         now->jdn += add;
         data_jd_to_gr(now);
         data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_DAY == type_interval || -NODE_TYPE_DAY == type_interval) {
-        now->jdn += add * 1 * (type_interval / NODE_TYPE_DAY);
+    } else if (NODE_TYPE_DAY == type_BELONGS_TO_INTERVALval || -NODE_TYPE_DAY == type_BELONGS_TO_INTERVALval) {
+        now->jdn += add * 1 * (type_BELONGS_TO_INTERVALval / NODE_TYPE_DAY);
         data_jd_to_gr(now);
         data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_WEEK == type_interval || -NODE_TYPE_WEEK == type_interval) {
+    } else if (NODE_TYPE_WEEK == type_BELONGS_TO_INTERVALval || -NODE_TYPE_WEEK == type_BELONGS_TO_INTERVALval) {
         for (int16_t i = 0; i < add; i++) {
-            now->week_year += (type_interval / NODE_TYPE_MONTH);
+            now->week_year += (type_BELONGS_TO_INTERVALval / NODE_TYPE_MONTH);
             if (now->week_max_year < now->week_year) {
                 now->week_year = 1;
                 now->year++;
@@ -350,9 +350,9 @@ void data_add(data_st *now, int32_t add, int8_t type_interval)
         }
         data_month(now);
         data_init(now, now->year, 0, now->week_year, now->day_week);
-    } else if (NODE_TYPE_MONTH == type_interval || -NODE_TYPE_MONTH == type_interval) {
+    } else if (NODE_TYPE_MONTH == type_BELONGS_TO_INTERVALval || -NODE_TYPE_MONTH == type_BELONGS_TO_INTERVALval) {
         for (int16_t i = 0; i < add; i++) {
-            now->month += (type_interval / NODE_TYPE_MONTH);
+            now->month += (type_BELONGS_TO_INTERVALval / NODE_TYPE_MONTH);
             if (12 < now->month) {
                 now->month = 1;
                 now->year++;
@@ -363,8 +363,8 @@ void data_add(data_st *now, int32_t add, int8_t type_interval)
             }
         }
         data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_YEAR == type_interval || -NODE_TYPE_YEAR == type_interval) {
-        now->year += add * 1 * (type_interval / NODE_TYPE_YEAR);
+    } else if (NODE_TYPE_YEAR == type_BELONGS_TO_INTERVALval || -NODE_TYPE_YEAR == type_BELONGS_TO_INTERVALval) {
+        now->year += add * 1 * (type_BELONGS_TO_INTERVALval / NODE_TYPE_YEAR);
         if (now->month != 0) {
             data_init(now, now->year, now->month, 0, now->day_month);
         }
