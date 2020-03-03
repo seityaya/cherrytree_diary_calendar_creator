@@ -7,6 +7,8 @@
 #include <string.h>
 
 #define BELONGS_TO_INTERVAL(beg, compare, end) (((compare) >= (beg)) && (((compare) <= (end))) && ((((beg) < (end)) || (beg) == (end)) ? TRUE : FALSE))
+#define MODULUS(x) (((x) >= 0) ? (x) : (-(x)))
+#define SUGNUM(x) (((x) >= 0) ? (((x) > 0) ? (1) : (0)) : (-1))
 
 typedef struct
 {

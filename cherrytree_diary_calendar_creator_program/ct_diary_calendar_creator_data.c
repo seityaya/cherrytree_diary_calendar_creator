@@ -110,7 +110,7 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
         }
     } else {
     error_else:
-        printf("ERROR: data_init(%d %d %d %d)\n", year, mount, week, day);
+        printf("ERROR: data_init(%d, %d, %d, %d)\n", year, mount, week, day);
         exit(1);
     }
     data_year_name(d);
@@ -323,54 +323,64 @@ int32_t data_dif(data_st *now, data_st *diff)
 }
 
 /** PARAM: year, month, day_month*/
-void data_add(data_st *now, int32_t add, int8_t type_BELONGS_TO_INTERVALval)
+void data_add(data_st *now, int32_t add, int8_t type_interval)
 {
-    if (0 == type_BELONGS_TO_INTERVALval) {
+    if (NODE_TYPE_DAY == type_interval) {
         now->jdn += add;
         data_jd_to_gr(now);
         data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_DAY == type_BELONGS_TO_INTERVALval || -NODE_TYPE_DAY == type_BELONGS_TO_INTERVALval) {
-        now->jdn += add * 1 * (type_BELONGS_TO_INTERVALval / NODE_TYPE_DAY);
-        data_jd_to_gr(now);
-        data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_WEEK == type_BELONGS_TO_INTERVALval || -NODE_TYPE_WEEK == type_BELONGS_TO_INTERVALval) {
-        for (int16_t i = 0; i < add; i++) {
-            now->week_year += (type_BELONGS_TO_INTERVALval / NODE_TYPE_MONTH);
-            if (now->week_max_year < now->week_year) {
+    } else if (NODE_TYPE_WEEK == type_interval) {
+        for (int16_t i = 0; i < MODULUS(add); i++) {
+            now->week_year += SUGNUM(add);
+            if (now->week_year > now->week_max_year) {
                 now->week_year = 1;
                 now->year++;
-            }
-            if (1 > now->week_year) {
+            } else if (now->week_year < 1) {
                 data_st t_save;
                 t_save = *now;
                 data_init(&t_save, t_save.year - 1, 0, t_save.week_year, now->day_week);
                 now->week_year = t_save.week_max_year;
                 now->year--;
+            } else if (BELONGS_TO_INTERVAL(1, now->week_year, now->week_max_year)) {
+                /*VOID*/
+            } else {
+                goto error_else;
             }
         }
-        data_month(now);
         data_init(now, now->year, 0, now->week_year, now->day_week);
-    } else if (NODE_TYPE_MONTH == type_BELONGS_TO_INTERVALval || -NODE_TYPE_MONTH == type_BELONGS_TO_INTERVALval) {
-        for (int16_t i = 0; i < add; i++) {
-            now->month += (type_BELONGS_TO_INTERVALval / NODE_TYPE_MONTH);
-            if (12 < now->month) {
+    } else if (NODE_TYPE_MONTH == type_interval) {
+        for (int16_t i = 0; i < MODULUS(add); i++) {
+            now->month += SUGNUM(add);
+            if (now->month > 12) {
                 now->month = 1;
                 now->year++;
-            }
-            if (1 > now->month) {
+            } else if (now->month < 1) {
                 now->month = 12;
                 now->year--;
+            } else if (BELONGS_TO_INTERVAL(1, now->month, 12)) {
+                /*VOID*/
+            } else {
+                goto error_else;
             }
         }
         data_init(now, now->year, now->month, 0, now->day_month);
-    } else if (NODE_TYPE_YEAR == type_BELONGS_TO_INTERVALval || -NODE_TYPE_YEAR == type_BELONGS_TO_INTERVALval) {
-        now->year += add * 1 * (type_BELONGS_TO_INTERVALval / NODE_TYPE_YEAR);
+    } else if (NODE_TYPE_YEAR == type_interval) {
+        now->year += SUGNUM(add);
         if (now->month != 0) {
             data_init(now, now->year, now->month, 0, now->day_month);
+        } else if (now->week_year != 0) {
+            /*необходимо чтобы 53 неделя текущего года указывала на 52 неделю другого года*/ /*TODO подумать ещё*/
+            uint16_t temp_weak_year = (now->week_year == 53) ? (now->week_year - 1) : (now->week_year);
+            data_init(now, now->year, 0, temp_weak_year, now->day_week);
+        } else if ((now->month == 0) || now->week_year == 0) {
+            data_init(now, now->year, 0, 0, 0);
+        } else {
+            goto error_else;
         }
-        if (now->week_year != 0) {
-            data_init(now, now->year, 0, (now->week_year == 53) ? (now->week_year - 1) : (now->week_year), now->day_week);
-        }
+    } else {
+    error_else:
+        printf("ERROR: data_add(ST, % 2d, %d), ST[Y:%d, M:%d/D:%d, W:%d/D:%d]\n", add, type_interval, now->year, now->month, now->day_month, now->week_year, now->day_week);
+        exit(1);
     }
 }
 

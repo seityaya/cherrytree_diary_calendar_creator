@@ -4,7 +4,7 @@
 #include "ct_diary_calendar_creator_data.h"
 #include "ct_diary_calendar_creator_node.h"
 #include "ct_diary_calendar_creator_table.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /*HARDCORE DEFINE*/
 /************************************************/
@@ -54,7 +54,7 @@
 #define FILE_NAME "cherrytree_diary_calendar"
 #define NAME_DIARY "WELCOME TO YOUR DIARY"
 #define MAIN_PAGE_NAME "DIARY" /*5 symbol max*/
-#define NODE_PREFIX "DIARY"    /*5 symbol max*/
+#define NODE_PREFIX "DIARY"
 /************************************************/
 
 #endif /*CHERRYTREE_DIARY_CALENDAR_CREATOR_MAIN_H_*/

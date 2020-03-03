@@ -61,7 +61,7 @@ void diary_table_year(data_st d, char *text)
     sprintf(buff, "<rich_text>\n</rich_text>");
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_YEAR);
+    data_add(&d, -1, NODE_TYPE_YEAR);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_YEAR, d.day_num_year);
     strcat(text, buff);
     sprintf(buff, "<rich_text>             @              </rich_text>");
@@ -120,11 +120,11 @@ void diary_table_month(data_st d, char *text)
     sprintf(buff, "<rich_text>\n</rich_text>");
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_YEAR);
+    data_add(&d, -1, NODE_TYPE_YEAR);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_MONTH, d.month);
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_MONTH);
+    data_add(&d, -1, NODE_TYPE_MONTH);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬M </rich_text>", d.year, NODE_TYPE_MONTH, d.month);
     strcat(text, buff);
     sprintf(buff, "<rich_text>         @          </rich_text>");
@@ -147,6 +147,9 @@ void diary_table_month(data_st d, char *text)
     strcat(text, buff);
     data_init(&d, d.year, d.month, 0, 1);
     data_init(&d, d.year, 0, d.week_year, 1);
+    if (BELONGS_TO_INTERVAL(2, d.day_month, 8)) {
+        data_add(&d, -1, NODE_TYPE_WEEK);
+    }
     for (int16_t t = 0; t < 7 * 6; t++) {
         if (0 == t % 7) {
             sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d  </rich_text>", d.year, NODE_TYPE_WEEK, d.week_year, d.week_year);
@@ -154,7 +157,7 @@ void diary_table_month(data_st d, char *text)
         }
         sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">%02d%c</rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year, d.day_month, (6 == t % 7) ? '\n' : ' ');
         strcat(text, buff);
-        data_add(&d, 1, 0);
+        data_add(&d, 1, NODE_TYPE_DAY);
     }
     //TABLE END
 
@@ -188,13 +191,13 @@ void diary_table_week(data_st d, char *text)
     sprintf(buff, "<rich_text>\n</rich_text>");
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_YEAR);
+    data_add(&d, -1, NODE_TYPE_YEAR);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_WEEK, d.week_year);
     strcat(text, buff);
     sprintf(buff, "<rich_text>    </rich_text>");
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_WEEK);
+    data_add(&d, -1, NODE_TYPE_WEEK);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬W </rich_text>", d.year, NODE_TYPE_WEEK, d.week_year);
     strcat(text, buff);
     sprintf(buff, "<rich_text>     @      </rich_text>");
@@ -291,19 +294,19 @@ void diary_table_day(data_st d, char *text)
     sprintf(buff, "<rich_text>\n</rich_text>");
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_YEAR);
+    data_add(&d, -1, NODE_TYPE_YEAR);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬Y </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_MONTH);
+    data_add(&d, -1, NODE_TYPE_MONTH);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬M </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_WEEK);
+    data_add(&d, -1, NODE_TYPE_WEEK);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬W </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
     strcat(text, buff);
     d = t_save;
-    data_add(&d, 1, -NODE_TYPE_DAY);
+    data_add(&d, -1, NODE_TYPE_DAY);
     sprintf(buff, "<rich_text link=\"node %04d%01d%03d\">❬❬D </rich_text>", d.year, NODE_TYPE_DAY, d.day_num_year);
     strcat(text, buff);
     sprintf(buff, "<rich_text> @  </rich_text>");
