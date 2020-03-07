@@ -1,5 +1,11 @@
-#include "ct_diary_calendar_creator_data.h"
-#include "ct_diary_calendar_creator_main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "ct_dcc_data.h"
+#include "ct_dcc_debug_string.h"
+#include "ct_dcc_main.h"
+#include "ct_dcc_node.h"
 
 #if LANG_DIARY == LANG_RU
 const char year_name[13][24] = {"Год"};
@@ -12,7 +18,7 @@ const char week_name[9][24] = {"Wk", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su", "
 #endif
 
 /** PARAM: (year, month & day_month) or (year, week & week_day)*/
-void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t day)
+void data_init(ct_dcc_data *d, int16_t year, int16_t mount, int16_t week, int16_t day)
 {
     if (BELONGS_TO_INTERVAL(0, year, 0)) { /*Если год равен нулю, то всё остальное тоже равно нулю*/
         /*Занулить всё*/
@@ -104,7 +110,7 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
             data_day_max_month(d);
             data_day_max_year(d);
             data_week_max_year(d);
-            data_week_year(d); /*NOTE: ISSUE 1*/
+            data_week_year(d);
         } else {
             goto error_else;
         }
@@ -119,9 +125,9 @@ void data_init(data_st *d, int16_t year, int16_t mount, int16_t week, int16_t da
 }
 
 /** PARAM: year, week, day_week */
-void data_month(data_st *d)
+void data_month(ct_dcc_data *d)
 {
-    data_st t;
+    ct_dcc_data t;
     int8_t delta = 0;
     t.year = d->year;
     t.month = 1;
@@ -140,9 +146,9 @@ void data_month(data_st *d)
 }
 
 /** PARAM: year, week, day_week */
-void data_day_month(data_st *d)
+void data_day_month(ct_dcc_data *d)
 {
-    data_st t;
+    ct_dcc_data t;
     int8_t delta = 0;
     t.year = d->year;
     t.month = 1;
@@ -161,9 +167,9 @@ void data_day_month(data_st *d)
 }
 
 /** PARAM: year, month, day_month */
-void data_week_year(data_st *d)
+void data_week_year(ct_dcc_data *d)
 {
-    data_st t_beg, t_end;
+    ct_dcc_data t_beg, t_end;
     data_week_max_year(d);
 
     d->year_week_overflow = 0;
@@ -188,7 +194,6 @@ void data_week_year(data_st *d)
 
     d->week_year = (data_dif(&t_beg, &t_end) / 7) + 1;
 
-    /*NOTE: ISSUE 1*/
     if (d->week_year > d->week_max_year) {
         d->week_year = 1;
         d->year_week_overflow = 1;
@@ -196,9 +201,9 @@ void data_week_year(data_st *d)
 }
 
 /** PARAM: year */
-void data_week_max_year(data_st *d)
+void data_week_max_year(ct_dcc_data *d)
 {
-    data_st t_beg, t_end;
+    ct_dcc_data t_beg, t_end;
 
     t_beg.year = d->year;
     t_beg.month = 1;
@@ -226,7 +231,7 @@ void data_week_max_year(data_st *d)
 }
 
 /** PARAM: year, month, day_month*/
-void data_gr_to_jd(data_st *d)
+void data_gr_to_jd(ct_dcc_data *d)
 {
     int32_t A, Y, M, D;
     A = (14 - d->month) / 12;
@@ -237,7 +242,7 @@ void data_gr_to_jd(data_st *d)
 }
 
 /** PARAM: jdn*/
-void data_jd_to_gr(data_st *d)
+void data_jd_to_gr(ct_dcc_data *d)
 {
     int32_t a, b, c, f, e, m;
     a = (int32_t)(d->jdn + 32044);
@@ -253,7 +258,7 @@ void data_jd_to_gr(data_st *d)
 }
 
 /** PARAM: year*/
-void data_year_leap(data_st *d)
+void data_year_leap(ct_dcc_data *d)
 {
     if (d->year % 4 != 0) {
         d->year_leap = 0;
@@ -265,7 +270,7 @@ void data_year_leap(data_st *d)
 }
 
 /** PARAM: year, month*/
-void data_day_max_month(data_st *d)
+void data_day_max_month(ct_dcc_data *d)
 {
     data_year_leap(d);
     uint8_t t[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -273,17 +278,17 @@ void data_day_max_month(data_st *d)
 }
 
 /** PARAM: year_leap*/
-void data_day_max_year(data_st *d)
+void data_day_max_year(ct_dcc_data *d)
 {
     data_year_leap(d);
     d->day_max_year = 365 + d->year_leap;
 }
 
 /** PARAM: year, month, day_month*/
-void data_day_num_year(data_st *d)
+void data_day_num_year(ct_dcc_data *d)
 {
     data_gr_to_jd(d);
-    data_st t;
+    ct_dcc_data t;
     t.year = d->year;
     t.month = 1;
     t.day_month = 1;
@@ -292,38 +297,38 @@ void data_day_num_year(data_st *d)
 }
 
 /** PARAM: year, month, day_month*/
-void data_dey_week(data_st *d)
+void data_dey_week(ct_dcc_data *d)
 {
     data_gr_to_jd(d);
     d->day_week = (d->jdn % 7) + 1;
 }
 
 /** PARAM: NONE */
-void data_year_name(data_st *d)
+void data_year_name(ct_dcc_data *d)
 {
     strcpy((char *) d->year_name, year_name[0]);
 }
 
 /** PARAM: month */
-void data_month_name(data_st *d)
+void data_month_name(ct_dcc_data *d)
 {
     strcpy((char *) d->month_name, month_name[d->month]);
 }
 
 /** PARAM: day_week */
-void data_week_day_name(data_st *d)
+void data_week_day_name(ct_dcc_data *d)
 {
     strcpy((char *) d->week_name, week_name[d->day_week]);
 }
 
 /** PARAM: year, month, day_month*/
-int32_t data_dif(data_st *now, data_st *diff)
+int32_t data_dif(ct_dcc_data *now, ct_dcc_data *diff)
 {
     return (diff->jdn - now->jdn);
 }
 
 /** PARAM: year, month, day_month*/
-void data_add(data_st *now, int32_t add, int8_t type_interval)
+void data_add(ct_dcc_data *now, int32_t add, int8_t type_interval)
 {
     if (NODE_TYPE_DAY == type_interval) {
         now->jdn += add;
@@ -336,7 +341,7 @@ void data_add(data_st *now, int32_t add, int8_t type_interval)
                 now->week_year = 1;
                 now->year++;
             } else if (now->week_year < 1) {
-                data_st t_save;
+                ct_dcc_data t_save;
                 t_save = *now;
                 data_init(&t_save, t_save.year - 1, 0, t_save.week_year, now->day_week);
                 now->week_year = t_save.week_max_year;
@@ -385,7 +390,7 @@ void data_add(data_st *now, int32_t add, int8_t type_interval)
 }
 
 /** PARAM: ALL*/
-void data_print(data_st *now, const char *str)
+void data_print(ct_dcc_data *now, const char *str)
 {
     printf("%s", str);
     printf("jdn : %d\n", now->jdn);

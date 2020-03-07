@@ -1,8 +1,14 @@
-#include "ct_diary_calendar_creator_node.h"
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-static char buff[20000];
+#include "ct_dcc_data.h"
+#include "ct_dcc_leaf.h"
+#include "ct_dcc_main.h"
+#include "ct_dcc_node.h"
 
-void diary_node_beg(char *text, data_st d, uint8_t node_type)
+void ct_dcc_node_beg(char *text, ct_dcc_data d, uint8_t node_type)
 {
     int32_t temp = 0;
     char node_type_symbol = ' ';
@@ -25,11 +31,11 @@ void diary_node_beg(char *text, data_st d, uint8_t node_type)
         exit(0);
     }
 
-    sprintf(buff,
+    TEXTCAT(text,
             "<node custom_icon_id=\"0\" "
             "foreground=\"\" "
             "is_bold=\"False\" "
-            "name=\"%s Y%04d %c%03d\" "
+            "name=\"%sY%04d %c%03d\" "
             "prog_lang=\"custom-colors\" "
             "readonly=\"False\" "
             "tags=\"\" "
@@ -44,80 +50,69 @@ void diary_node_beg(char *text, data_st d, uint8_t node_type)
             d.year,
             node_type,
             temp);
-    strcat(text, buff);
 }
-void diary_node_end(char *text)
+void ct_dcc_node_end(char *text)
 {
-    strcat(text, "</node>\n");
+    TEXTCAT(text, "</node>\n");
 }
 
-void diary_node_root(data_st d, char *text)
+void ct_dcc_node_root(ct_dcc_data d, char *text, ct_dcc_config *conf)
 {
-#ifdef DIARY_NODE_ROOT
     data_init(&d, 0, 0, 0, 0);
-    diary_node_beg(text, d, NODE_TYPE_ROOT);
-    diary_table_root(d, text);
-    diary_node_year(d, text);
-    diary_node_end(text);
-#endif
+    ct_dcc_node_beg(text, d, NODE_TYPE_ROOT);
+    ct_dcc_leaf_root(d, text, conf);
+    ct_dcc_node_year(d, text, conf);
+    ct_dcc_node_end(text);
 }
 
-void diary_node_year(data_st d, char *text)
+void ct_dcc_node_year(ct_dcc_data d, char *text, ct_dcc_config *conf)
 {
-#ifdef DIARY_NODE_YEAR
     for (d.year = BEG_YEAR; d.year <= END_YEAR; d.year++) {
         data_init(&d, d.year, 0, 0, 0);
-        diary_node_beg(text, d, NODE_TYPE_YEAR);
-        diary_table_year(d, text);
-        diary_node_month(d, text);
-        diary_node_week(d, text);
-        diary_node_day(d, text);
-        diary_node_end(text);
+        ct_dcc_node_beg(text, d, NODE_TYPE_YEAR);
+        ct_dcc_leaf_year(d, text, conf);
+        ct_dcc_node_month(d, text, conf);
+        ct_dcc_node_week(d, text, conf);
+        ct_dcc_node_day(d, text, conf);
+        ct_dcc_node_end(text);
     }
-#endif
 }
 
-void diary_node_month(data_st d, char *text)
+void ct_dcc_node_month(ct_dcc_data d, char *text, ct_dcc_config *conf)
 {
-#ifdef DIARY_NODE_MONTH
-    diary_node_beg(text, d, NODE_TYPE_MONTH);
+    ct_dcc_node_beg(text, d, NODE_TYPE_MONTH);
     for (d.month = BEG_MONTH; d.month <= END_MONTH; d.month++) {
         data_init(&d, d.year, d.month, 0, 0);
-        diary_node_beg(text, d, NODE_TYPE_MONTH);
-        diary_table_month(d, text);
-        diary_node_end(text);
+        ct_dcc_node_beg(text, d, NODE_TYPE_MONTH);
+        ct_dcc_leaf_month(d, text, conf);
+        ct_dcc_node_end(text);
     }
-    diary_node_end(text);
-#endif
+    ct_dcc_node_end(text);
 }
 
-void diary_node_week(data_st d, char *text)
+void ct_dcc_node_week(ct_dcc_data d, char *text, ct_dcc_config *conf)
 {
-#ifdef DIARY_NODE_WEEK
-    diary_node_beg(text, d, NODE_TYPE_WEEK);
+    ct_dcc_node_beg(text, d, NODE_TYPE_WEEK);
     for (d.week_year = 1; d.week_year <= d.week_max_year; d.week_year++) {
         data_init(&d, d.year, 0, d.week_year, 0);
-        diary_node_beg(text, d, NODE_TYPE_WEEK);
-        diary_table_week(d, text);
-        diary_node_end(text);
+        ct_dcc_node_beg(text, d, NODE_TYPE_WEEK);
+        ct_dcc_leaf_week(d, text, conf);
+        ct_dcc_node_end(text);
     }
-    diary_node_end(text);
-#endif
+    ct_dcc_node_end(text);
 }
 
-void diary_node_day(data_st d, char *text)
+void ct_dcc_node_day(ct_dcc_data d, char *text, ct_dcc_config *conf)
 {
-#ifdef DIARY_NODE_DAY
-    diary_node_beg(text, d, NODE_TYPE_DAY);
+    ct_dcc_node_beg(text, d, NODE_TYPE_DAY);
     for (d.month = BEG_MONTH; d.month <= END_MONTH; d.month++) {
         data_init(&d, d.year, d.month, 0, 0);
         for (d.day_month = 1; d.day_month <= d.day_max_month; d.day_month++) {
             data_init(&d, d.year, d.month, 0, d.day_month);
-            diary_node_beg(text, d, NODE_TYPE_DAY);
-            diary_table_day(d, text);
-            diary_node_end(text);
+            ct_dcc_node_beg(text, d, NODE_TYPE_DAY);
+            ct_dcc_leaf_day(d, text, conf);
+            ct_dcc_node_end(text);
         }
     }
-    diary_node_end(text);
-#endif
+    ct_dcc_node_end(text);
 }
